@@ -1,0 +1,73 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.emperorspices.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Orange Grade (6.5-7.5mm) Cardamom",
+        "item": "https://www.emperorspices.com/products/aroma-lock-orange-grade-cardamom-packs"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Orange Grade (6.5-7.5mm) Cardamom",
+    "url": "https://www.emperorspices.com/products/aroma-lock-orange-grade-cardamom-packs",
+    "image": [
+      "https://www.emperorspices.com/cdn/shop/products/ESP_Prducts_Shoporange_2168x.jpg?v=1653464931"
+    ],
+    "description": "Origin: South India\nSpeciality: GI-tagged Alleppey Green Aroma Lock Cardamom\nGrade: Orange\nSize: Pods of diameter 6.5mm - 7.5mm\nUsage: Ideal for industrial use\nManufactured / Packed by: Samex India Pvt. Ltd. Dist. Theni, Tamil Nadu, India",
+    "sku": "ORANGE1KG",
+    "brand": {
+      "@type": "Thing",
+      "name": "Emperor Spices Cardamom"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "sku": "ORANGE1KG",
+        "availability": "http://schema.org/OutOfStock",
+        "price": 3499.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-orange-grade-cardamom-packs?variant=41237546401990",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "ORANGE500G",
+        "availability": "http://schema.org/OutOfStock",
+        "price": 1899.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-orange-grade-cardamom-packs?variant=43992874582214",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "ORANGE5KG",
+        "availability": "http://schema.org/OutOfStock",
+        "price": 16999.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-orange-grade-cardamom-packs?variant=43992878317766",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      }
+    ]
+  }
+]

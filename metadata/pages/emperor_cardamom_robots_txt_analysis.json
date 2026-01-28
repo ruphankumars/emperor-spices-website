@@ -1,0 +1,18 @@
+{
+  "url": "https://emperorspices.com/robots.txt",
+  "fetched": true,
+  "disallowed_paths": [
+    "/wp-content/uploads/wc-logs/",
+    "/wp-content/uploads/woocommerce_transient_files/",
+    "/wp-content/uploads/woocommerce_uploads/",
+    "/wp-admin/"
+  ],
+  "allowed_paths": [
+    "/wp-admin/admin-ajax.php"
+  ],
+  "sitemap_urls": [
+    "https://emperorspices.com/wp-sitemap.xml"
+  ],
+  "crawl_delay": null,
+  "raw_content": "User-agent: *\nDisallow: /wp-content/uploads/wc-logs/\nDisallow: /wp-content/uploads/woocommerce_transient_files/\nDisallow: /wp-content/uploads/woocommerce_uploads/\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://emperorspices.com/wp-sitemap.xml\n"
+}

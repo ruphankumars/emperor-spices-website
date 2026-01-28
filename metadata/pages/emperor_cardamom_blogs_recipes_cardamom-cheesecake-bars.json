@@ -1,0 +1,51 @@
+{
+  "title": "Cardamom Cheesecake Bars",
+  "description": "Ingredients:3/4 cup graham cracker crumbs2 tablespoons butter, melted2 packages (8 ounces each) cream cheese, softened1/2 cup sugar2 teaspoons ground cardamom, divided1 teaspoon vanilla extract2 large eggs, room temperature, lightly beaten1/3 cup all-purpose flour1/3 cup quick-cooking oats1/3 cup packed brown sugar1/4 ",
+  "url": "https://www.emperorspices.com/blogs/recipes/cardamom-cheesecake-bars",
+  "images": [
+    "https://www.emperorspices.com/cdn/shop/articles/Cardamom_Cheesecake_Bars_{width}x.jpg?v=1715690253",
+    "https://cdn.gtranslate.net/shopify/assets/flags/16/en.png",
+    "https://www.emperorspices.com/cdn/shop/articles/Cardamom_Spritz_Cookies_{width}x.jpg?v=1715690262",
+    "https://cdn.shopify.com/s/files/1/0581/5926/8038/files/water.png?v=1708940610",
+    "https://www.emperorspices.com/cdn/shop/articles/Finnish_Mulled_Wine_1024x1024.jpg?v=1715690244",
+    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "https://www.emperorspices.com/cdn/shop/articles/Finnish_Mulled_Wine_{width}x.jpg?v=1715690244",
+    "https://www.emperorspices.com/cdn/shop/articles/Cardamom_Cheesecake_Bars_1024x1024.jpg?v=1715690253",
+    "https://www.facebook.com/tr?id=960097991265838&ev=PageView&noscript=1",
+    "https://www.emperorspices.com/cdn/shop/articles/Cardamom_Spritz_Cookies_1024x1024.jpg?v=1715690262",
+    "https://www.emperorspices.com/cdn/shop/files/ESP_260x.png?v=1766236878"
+  ],
+  "json_ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": "Ingredients:3/4 cup graham cracker crumbs2 tablespoons butter, melted2 packages (8 ounces each) cream cheese, softened1/2 cup sugar2 teaspoons ground cardamom, divided1 teaspoon vanilla extract2 large eggs, room temperature, lightly beaten1/3 cup all-purpose flour1/3 cup quick-cooking oats1/3 cup packed brown sugar1/4 cup cold butter1/3 cup sliced almondsDirections:1. In a small bowl, combine graham cracker crumbs and melted butter. Press onto the bottom of a greased 9-in. square baking pan. In a large bowl, beat the cream cheese, sugar, 1 teaspoon cardamom and vanilla until smooth. Add eggs; beat on low speed just until combined. Pour over crust.2. In a small bowl, combine the flour, oats, brown sugar and remaining cardamom. Cut in cold butter until crumbly. Stir in almonds. Sprinkle over top.3. Bake at 350° for 35-40 minutes or until center is almost set and topping is golden brown. Cool on a wire rack for 1 hour. Cover and refrigerate for at least 2 hours before serving. Cut into 16 bars.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.emperorspices.com/blogs/recipes/cardamom-cheesecake-bars"
+      },
+      "headline": "Cardamom Cheesecake Bars",
+      "image": [
+        "https://www.emperorspices.com/cdn/shop/articles/Cardamom_Cheesecake_Bars_1000x.jpg?v=1715690253"
+      ],
+      "datePublished": "2023-12-13T15:29:31Z",
+      "dateCreated": "2023-12-13T15:29:31Z",
+      "dateModified": "2024-05-14T18:07:33Z",
+      "author": {
+        "@type": "Person",
+        "name": "Samex India Pvt. Ltd."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 1000,
+          "url": "https://www.emperorspices.com/cdn/shop/articles/Cardamom_Cheesecake_Bars_1000x.jpg?v=1715690253",
+          "width": 1000
+        },
+        "name": "Emperor Spices Cardamom"
+      }
+    }
+  ],
+  "scraped_at": "2026-01-24T15:01:18.537676"
+}

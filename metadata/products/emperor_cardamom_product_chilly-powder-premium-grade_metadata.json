@@ -1,0 +1,32 @@
+[
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Chilly Powder",
+          "@id": "https://emperorspices.com/product/chilly-powder-premium-grade/"
+        }
+      }
+    ]
+  }
+]

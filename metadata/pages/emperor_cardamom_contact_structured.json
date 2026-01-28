@@ -1,0 +1,23 @@
+{
+  "company": "Vadakedath Industries Pvt Ltd",
+  "phones": {
+    "india": [
+      "+91 48 222 73 726",
+      "+91 9497 327 605",
+      "+91 8943 466 563",
+      "+91 9846 445 919"
+    ],
+    "uae": [
+      "+971 0524511220"
+    ]
+  },
+  "emails": [
+    "vadakkedathindustries2013@gmail.com",
+    "info@vadakkedathindustries.com",
+    "info@emperor spices.com"
+  ],
+  "business_hours": {
+    "weekdays": "Monday-Saturday: 8:00 AM - 8:00 PM",
+    "sunday": "8:00 AM - 5:00 PM"
+  }
+}

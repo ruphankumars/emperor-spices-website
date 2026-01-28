@@ -1,0 +1,24 @@
+{
+  "grades": [
+    {
+      "name": "6-7mm Emperor Spices Green Cardamom",
+      "packaging": "Green",
+      "size_range": "6-7mm"
+    },
+    {
+      "name": "7-8mm Emperor Spices Green Cardamom",
+      "packaging": "Orange",
+      "size_range": "7-8mm"
+    },
+    {
+      "name": "8mm+ Above Emperor Spices Green Cardamom",
+      "packaging": "Pink/Purple",
+      "size_range": "8mm+"
+    }
+  ],
+  "packaging_types": [
+    "5kg",
+    "1kg",
+    "500g"
+  ]
+}

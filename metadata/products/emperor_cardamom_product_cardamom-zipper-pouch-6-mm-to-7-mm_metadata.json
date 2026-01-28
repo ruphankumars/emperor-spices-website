@@ -1,0 +1,32 @@
+[
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Cardamom",
+          "@id": "https://emperorspices.com/product-category/cardamom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Cardamom –Zipper Pouch",
+          "@id": "https://emperorspices.com/product/cardamom-zipper-pouch-6-mm-to-7-mm/"
+        }
+      }
+    ]
+  }
+]

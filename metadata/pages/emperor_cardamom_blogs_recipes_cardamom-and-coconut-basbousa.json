@@ -1,0 +1,52 @@
+{
+  "title": "Cardamom and Coconut Basbousa",
+  "description": "The traditional Arabic Basbousa (or semolina cake) infused with aromatic Emperor Spices Cardamom that will leave your mouth watering for more. Indulge your sweet tooth in this Arabic delight! Ingredients: 1 ¼ cup - Semolina ¼ cup - All-purpose flour ½ cup - Ground almonds 1/3 cup - Coconut milk powder 2 tbsp - Desiccate",
+  "url": "https://www.emperorspices.com/blogs/recipes/cardamom-and-coconut-basbousa",
+  "images": [
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1962986746_{width}x.jpg?v=1680864083",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_732483724_1024x1024.jpg?v=1680864096",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_371356012_{width}x.jpg?v=1680864148",
+    "https://cdn.shopify.com/s/files/1/0581/5926/8038/files/water.png?v=1708940610",
+    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1962986746_1024x1024.jpg?v=1680864083",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_732483724_{width}x.jpg?v=1680864096",
+    "https://www.facebook.com/tr?id=960097991265838&ev=PageView&noscript=1",
+    "https://cdn.gtranslate.net/shopify/assets/flags/16/en.png",
+    "https://www.emperorspices.com/cdn/shop/files/ESP_260x.png?v=1766236878",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_371356012_1024x1024.jpg?v=1680864148"
+  ],
+  "json_ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": "\nThe traditional Arabic Basbousa (or semolina cake) infused with aromatic Emperor Spices Cardamom that will leave your mouth watering for more. Indulge your sweet tooth in this Arabic delight!\n\nIngredients:\n\n1 ¼ cup - Semolina\n¼ cup - All-purpose flour\n½ cup - Ground almonds\n1/3 cup - Coconut milk powder\n2 tbsp - Desiccated coconut\n½ tsp - Cardamom powder\n100 g - Melted butter\n100 g - Yoghurt\n1/3 cup - Milk\n½ tsp - Baking powder\n1 cup - Sugar\n¾ cup - Water\n2 tsp - Rose water\n3-4 Pods - Emperor Spices Cardamom\n\nHow to make Cardamom and Coconut Basbousa:\n\nIn a bowl, mix together the semolina, all-purpose flour, ground almonds, coconut milk powder, desiccated coconut, and cardamom powder.\nPour in melted butter and yogurt and mix this well to form a thick mixture.\nLet it rest for 30 minutes.\nAfter 30 minutes, mix baking powder into the milk and pour into the semolina mixture. Mix well and pour in a greased baking dish.\nBake in a preheated 190-degree oven for 35-40 minutes until nicely baked and the crust turns golden brown.\nFor the sugar syrup, simmer sugar, water, rose water and cardamom for 3-4 minutes. Let it cool completely.\nPour the cool syrup on hot Basbousa and cut into the desired shape (squares or diamonds).\nLet it cool down and enjoy.\n",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.emperorspices.com/blogs/recipes/cardamom-and-coconut-basbousa"
+      },
+      "headline": "Cardamom and Coconut Basbousa",
+      "description": "The traditional Arabic Basbousa (or semolina cake) infused with aromatic Emperor Spices Cardamom that will leave your mouth watering for more.\nIndulge your sweet tooth in this Arabic delight!",
+      "image": [
+        "https://www.emperorspices.com/cdn/shop/articles/shutterstock_371356012_1000x.jpg?v=1680864148"
+      ],
+      "datePublished": "2021-07-05T22:33:04Z",
+      "dateCreated": "2021-07-05T22:33:05Z",
+      "dateModified": "2023-04-07T16:12:28Z",
+      "author": {
+        "@type": "Person",
+        "name": "Samex India Pvt. Ltd."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 667,
+          "url": "https://www.emperorspices.com/cdn/shop/articles/shutterstock_371356012_1000x.jpg?v=1680864148",
+          "width": 1000
+        },
+        "name": "Emperor Spices Cardamom"
+      }
+    }
+  ],
+  "scraped_at": "2026-01-24T15:00:45.370321"
+}

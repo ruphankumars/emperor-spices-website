@@ -1,0 +1,198 @@
+/* ================================================
+   EMPEROR SPICES V4 - THEME VARIABLES
+   Proper light/dark mode with consistent contrast
+   ================================================ */
+
+:root {
+  /* ===================
+     LIGHT MODE (Default)
+     =================== */
+  
+  /* Backgrounds */
+  --bg-primary: #FFFDF5;
+  --bg-secondary: #F8F6F0;
+  --bg-tertiary: #F0EDE5;
+  --bg-card: #FFFFFF;
+  --bg-overlay: rgba(255, 253, 245, 0.95);
+  
+  /* Text Colors - High Contrast */
+  --text-primary: #1C1917;
+  --text-secondary: #44403C;
+  --text-tertiary: #78716C;
+  --text-inverse: #FFFFFF;
+  
+  /* Brand Colors */
+  --accent: #2D4A3E;
+  --accent-hover: #1F3A2F;
+  --accent-light: #9CAF88;
+  --accent-muted: rgba(45, 74, 62, 0.1);
+  
+  /* Gold Accent */
+  --gold: #D4A849;
+  --gold-light: #E8C97A;
+  --gold-muted: rgba(212, 168, 73, 0.15);
+  
+  /* Borders */
+  --border-light: #E7E5E4;
+  --border-medium: #D6D3D1;
+  --border-dark: #A8A29E;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.12);
+  
+  /* Status Colors */
+  --success: #16A34A;
+  --warning: #EAB308;
+  --error: #DC2626;
+  --info: #2563EB;
+}
+
+/* ===================
+   DARK MODE
+   =================== */
+html.dark {
+  /* Backgrounds */
+  --bg-primary: #0A0F0D;
+  --bg-secondary: #141918;
+  --bg-tertiary: #1A1F1D;
+  --bg-card: #1E2422;
+  --bg-overlay: rgba(10, 15, 13, 0.95);
+  
+  /* Text Colors - High Contrast */
+  --text-primary: #F5F5F4;
+  --text-secondary: #D6D3D1;
+  --text-tertiary: #A8A29E;
+  --text-inverse: #1C1917;
+  
+  /* Brand Colors */
+  --accent: #9CAF88;
+  --accent-hover: #B5C4A3;
+  --accent-light: #C5D4B7;
+  --accent-muted: rgba(156, 175, 136, 0.15);
+  
+  /* Gold Accent */
+  --gold: #E8C97A;
+  --gold-light: #F5DFA3;
+  --gold-muted: rgba(232, 201, 122, 0.15);
+  
+  /* Borders */
+  --border-light: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-dark: rgba(255, 255, 255, 0.2);
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* ===================
+   TYPOGRAPHY SCALE
+   =================== */
+:root {
+  /* Font Families */
+  --font-display: "Clash Display", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-handwritten: "Caveat", cursive;
+  
+  /* Font Sizes */
+  --text-xs: 0.75rem;      /* 12px - Labels, badges */
+  --text-sm: 0.875rem;     /* 14px - Captions, meta */
+  --text-base: 1rem;       /* 16px - Body text */
+  --text-lg: 1.125rem;     /* 18px - Lead paragraphs */
+  --text-xl: 1.25rem;      /* 20px - Small headings */
+  --text-2xl: 1.5rem;      /* 24px - H4 */
+  --text-3xl: 1.875rem;    /* 30px - H3 */
+  --text-4xl: 2.25rem;     /* 36px - H2 */
+  --text-5xl: 3rem;        /* 48px - H1 */
+  --text-6xl: 3.75rem;     /* 60px - Display */
+  --text-7xl: 4.5rem;      /* 72px - Hero */
+  
+  /* Font Weights */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  
+  /* Line Heights */
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+  
+  /* Letter Spacing */
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.05em;
+  --tracking-wider: 0.1em;
+}
+
+/* ===================
+   SPACING SCALE
+   =================== */
+:root {
+  --space-0: 0;
+  --space-1: 0.25rem;    /* 4px */
+  --space-2: 0.5rem;     /* 8px */
+  --space-3: 0.75rem;    /* 12px */
+  --space-4: 1rem;       /* 16px */
+  --space-5: 1.25rem;    /* 20px */
+  --space-6: 1.5rem;     /* 24px */
+  --space-8: 2rem;       /* 32px */
+  --space-10: 2.5rem;    /* 40px */
+  --space-12: 3rem;      /* 48px */
+  --space-16: 4rem;      /* 64px */
+  --space-20: 5rem;      /* 80px */
+  --space-24: 6rem;      /* 96px */
+  
+  /* Section Spacing */
+  --section-padding-y: 4rem;
+  --section-padding-x: 5vw;
+  --section-gap: 3rem;
+  
+  /* Container */
+  --container-max: 1400px;
+  --container-narrow: 900px;
+}
+
+/* ===================
+   BORDER RADIUS
+   =================== */
+:root {
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+}
+
+/* ===================
+   TRANSITIONS
+   =================== */
+:root {
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-bounce: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* ===================
+   Z-INDEX SCALE
+   =================== */
+:root {
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-popover: 600;
+  --z-tooltip: 700;
+  --z-max: 9999;
+}

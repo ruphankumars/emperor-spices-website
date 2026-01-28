@@ -1,0 +1,52 @@
+{
+  "title": "Greek Cardamom Melomakarona (Cookies)",
+  "description": "A traditional Greek baked cookies infused with orange juice and cardamom made even more decadent when dipped in chocolate. Every time you bake it, it smells like Christmas! Ingredients:  150 ml - Olive oil 100 ml - Orange juice 15 g - Castor sugar 200 g - All purpose flour 50 g - Semolina ¼ tsp - Baking soda ½ tsp - Ca",
+  "url": "https://www.emperorspices.com/blogs/recipes/greek-cardamom-melomakarona-cookies",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0581/5926/8038/files/water.png?v=1708940610",
+    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1163579587_{width}x.jpg?v=1680864139",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1582510804_{width}x.jpg?v=1680864131",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1929055886_1024x1024.jpg?v=1680864118",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1929055886_{width}x.jpg?v=1680864118",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1163579587_1024x1024.jpg?v=1680864139",
+    "https://www.facebook.com/tr?id=960097991265838&ev=PageView&noscript=1",
+    "https://cdn.gtranslate.net/shopify/assets/flags/16/en.png",
+    "https://www.emperorspices.com/cdn/shop/files/ESP_260x.png?v=1766236878",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1582510804_1024x1024.jpg?v=1680864131"
+  ],
+  "json_ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": "\nA traditional Greek baked cookies infused with orange juice and cardamom made even more decadent when dipped in chocolate. Every time you bake it, it smells like Christmas!\n\nIngredients: \n\n150 ml - Olive oil\n100 ml - Orange juice\n15 g - Castor sugar\n200 g - All purpose flour\n50 g - Semolina\n¼ tsp - Baking soda\n½ tsp - Cardamom powder\n\nFor the Syrup:\n\n200 g - Castor sugar\n150 ml - Water\n½ - Orange (cut into rough pieces)\n3-5 pods - Emperor Spices Cardamom\n3 tbsp - Honey\n\nHow to make Greek Cardamom Melomakarona (Cookies):\n\nMix the olive oil, orange juice and castor sugar in a bowl.\nAdd the dry ingredients and mix well to form a soft dough.\nShape them into desired shapes and place on a butter paper lined baking tray.\nBake the cookies in a pre-heated 180 degree oven for 20-25 minutes or until they are golden brown.\nFor the syrup, put everything in a pan and simmer for 3-5 minutes. Turn the heat off and let it come to room temperature.\nWhen the cookies come out of the oven, dip them into the sugar syrup and take them out in 10-15 seconds.\nDip the cookies in melted dark chocolate and let it cool. Enjoy!\n",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.emperorspices.com/blogs/recipes/greek-cardamom-melomakarona-cookies"
+      },
+      "headline": "Greek Cardamom Melomakarona (Cookies)",
+      "description": "A traditional Greek baked cookies infused with orange juice and cardamom made even more decadent when dipped in chocolate. \nEvery time you bake it, it smells like Christmas!",
+      "image": [
+        "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1582510804_1000x.jpg?v=1680864131"
+      ],
+      "datePublished": "2021-08-04T23:23:44Z",
+      "dateCreated": "2021-08-04T23:23:37Z",
+      "dateModified": "2023-04-07T16:12:11Z",
+      "author": {
+        "@type": "Person",
+        "name": "Samex India Pvt. Ltd."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 667,
+          "url": "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1582510804_1000x.jpg?v=1680864131",
+          "width": 1000
+        },
+        "name": "Emperor Spices Cardamom"
+      }
+    }
+  ],
+  "scraped_at": "2026-01-24T15:01:05.076838"
+}

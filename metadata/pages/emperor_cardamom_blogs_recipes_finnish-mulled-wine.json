@@ -1,0 +1,51 @@
+{
+  "title": "Finnish Mulled Wine",
+  "description": "Ingredients:2/3 cup vodka2/3 cup port wine15 whole cloves3 cinnamon sticks (3 inches)2 orange zest strips (1 to 3 inches)1 orange slice1 lemon zest strip (1 to 3 inches)1 lemon slice1 piece fresh gingerroot (about 2 inches), peeled and thinly sliced1 teaspoon cardamom pods3 cups dry red wine1 cup packed brown sugarBlan",
+  "url": "https://www.emperorspices.com/blogs/recipes/finnish-mulled-wine",
+  "images": [
+    "https://www.emperorspices.com/cdn/shop/articles/Cardamom_Cheesecake_Bars_{width}x.jpg?v=1715690253",
+    "https://cdn.shopify.com/s/files/1/0581/5926/8038/files/water.png?v=1708940610",
+    "https://www.emperorspices.com/cdn/shop/articles/Finnish_Mulled_Wine_1024x1024.jpg?v=1715690244",
+    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "https://www.emperorspices.com/cdn/shop/articles/Finnish_Mulled_Wine_{width}x.jpg?v=1715690244",
+    "https://www.emperorspices.com/cdn/shop/articles/123_1024x1024.jpg?v=1680863969",
+    "https://www.emperorspices.com/cdn/shop/articles/Cardamom_Cheesecake_Bars_1024x1024.jpg?v=1715690253",
+    "https://www.emperorspices.com/cdn/shop/articles/123_{width}x.jpg?v=1680863969",
+    "https://www.facebook.com/tr?id=960097991265838&ev=PageView&noscript=1",
+    "https://cdn.gtranslate.net/shopify/assets/flags/16/en.png",
+    "https://www.emperorspices.com/cdn/shop/files/ESP_260x.png?v=1766236878"
+  ],
+  "json_ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": "Ingredients:2/3 cup vodka2/3 cup port wine15 whole cloves3 cinnamon sticks (3 inches)2 orange zest strips (1 to 3 inches)1 orange slice1 lemon zest strip (1 to 3 inches)1 lemon slice1 piece fresh gingerroot (about 2 inches), peeled and thinly sliced1 teaspoon cardamom pods3 cups dry red wine1 cup packed brown sugarBlanched almonds and raisins (optional)Directions:1. In a large bowl, combine the first 10 ingredients. Refrigerate, covered, overnight.2. Transfer to a large saucepan; stir in red wine and brown sugar. Bring just to a simmer (do not boil). Reduce heat; simmer gently, uncovered, until flavours are blended, about 30 minutes, stirring to dissolve sugar. Strain.3. Serve warm, over blanched almond and raisins if desired.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.emperorspices.com/blogs/recipes/finnish-mulled-wine"
+      },
+      "headline": "Finnish Mulled Wine",
+      "image": [
+        "https://www.emperorspices.com/cdn/shop/articles/Finnish_Mulled_Wine_1000x.jpg?v=1715690244"
+      ],
+      "datePublished": "2023-12-13T15:27:20Z",
+      "dateCreated": "2023-12-13T15:27:21Z",
+      "dateModified": "2024-05-14T18:07:24Z",
+      "author": {
+        "@type": "Person",
+        "name": "Samex India Pvt. Ltd."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 1000,
+          "url": "https://www.emperorspices.com/cdn/shop/articles/Finnish_Mulled_Wine_1000x.jpg?v=1715690244",
+          "width": 1000
+        },
+        "name": "Emperor Spices Cardamom"
+      }
+    }
+  ],
+  "scraped_at": "2026-01-24T15:01:15.879464"
+}

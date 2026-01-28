@@ -1,0 +1,52 @@
+{
+  "title": "Sheer Khurma",
+  "description": "Sheer Khurma is a vermicelli pudding. It is considered as one of the most delicious and traditional festive recipe enjoyed by people across the globe. It is very popular throughout the Indian subcontinent and Central Asia. Delicious, creamy and wholesome with a lot of nuts.  Ingredients: 500 ml - Milk (full cream) 50 g",
+  "url": "https://www.emperorspices.com/blogs/recipes/sheer-khurma",
+  "images": [
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_652405729_{width}x.jpg?v=1680864107",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_732483724_1024x1024.jpg?v=1680864096",
+    "https://www.facebook.com/tr?id=960097991265838&ev=PageView&noscript=1",
+    "https://cdn.shopify.com/s/files/1/0581/5926/8038/files/water.png?v=1708940610",
+    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1929055886_1024x1024.jpg?v=1680864118",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1929055886_{width}x.jpg?v=1680864118",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_732483724_{width}x.jpg?v=1680864096",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_652405729_1024x1024.jpg?v=1680864107",
+    "https://cdn.gtranslate.net/shopify/assets/flags/16/en.png",
+    "https://www.emperorspices.com/cdn/shop/files/ESP_260x.png?v=1766236878"
+  ],
+  "json_ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": "Sheer Khurma is a vermicelli pudding. It is considered as one of the most delicious and traditional festive recipe enjoyed by people across the globe. It is very popular throughout the Indian subcontinent and Central Asia. Delicious, creamy and wholesome with a lot of nuts. \nIngredients:\n\n500 ml - Milk (full cream)\n50 gm - Vermicelli (broken into small pieces), roasted\n1/4 cup - Sugar\n2 tbsp - Dates (chopped)\n1/4 cup - Raisins\n1/4 cup - Almonds (cut into pieces)\n1/4 cup - Pistachios\n1/4 cup - Ghee\n1/2 tsp - Saffron\n1/2 tsp - Cardamom powder\n\nHow to make Sheer Khurma:\n\nTake a pan and pour ghee in it.\nAdd almonds, raisins and pistachios to it. Sauté well.\nNow in another hot pan add ghee and vermicelli. Roast well.\nIn another wide pan simmer the milk till it thickens, add sugar and simmer again.\nAdd the roasted vermicelli and dry fruits along with dates and saffron.\nMix well till simmer. Add cardamom powder. Bring to simmer.\nServe chilled, garnished with dates.\n",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.emperorspices.com/blogs/recipes/sheer-khurma"
+      },
+      "headline": "Sheer Khurma",
+      "description": "Sheer Khurma is a vermicelli pudding. It is considered as one of the most delicious and traditional festive recipe enjoyed by people across the globe. It is very popular throughout the Indian subcontinent and Central Asia.\nDelicious, creamy and wholesome with a lot of nuts. ",
+      "image": [
+        "https://www.emperorspices.com/cdn/shop/articles/shutterstock_652405729_1000x.jpg?v=1680864107"
+      ],
+      "datePublished": "2021-08-04T20:55:08Z",
+      "dateCreated": "2021-08-04T20:54:56Z",
+      "dateModified": "2023-04-07T16:11:47Z",
+      "author": {
+        "@type": "Person",
+        "name": "Samex India Pvt. Ltd."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 667,
+          "url": "https://www.emperorspices.com/cdn/shop/articles/shutterstock_652405729_1000x.jpg?v=1680864107",
+          "width": 1000
+        },
+        "name": "Emperor Spices Cardamom"
+      }
+    }
+  ],
+  "scraped_at": "2026-01-24T15:01:00.958523"
+}

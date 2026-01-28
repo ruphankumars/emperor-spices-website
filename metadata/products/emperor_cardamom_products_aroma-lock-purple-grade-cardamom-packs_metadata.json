@@ -1,0 +1,109 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.emperorspices.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Purple Grade (8 mm & above) Cardamom",
+        "item": "https://www.emperorspices.com/products/aroma-lock-purple-grade-cardamom-packs"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Purple Grade (8 mm & above) Cardamom",
+    "url": "https://www.emperorspices.com/products/aroma-lock-purple-grade-cardamom-packs",
+    "image": [
+      "https://www.emperorspices.com/cdn/shop/products/ESP_Prducts_ShopPurple_2168x.jpg?v=1653465157"
+    ],
+    "description": "Origin: South India\nSpeciality: GI-tagged Alleppey Green Aroma Lock Cardamom\nGrade: Purple\nSize: Pods of diameter 8mm &amp; above \nUsage: Versatile spice, chef recommended, ideal for the discerning home consumerManufactured / Packed by: Samex India Pvt. Ltd. Dist. Theni, Tamil Nadu, India",
+    "sku": "PURPLE100G",
+    "brand": {
+      "@type": "Thing",
+      "name": "Emperor Spices Cardamom"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "sku": "PURPLE100G",
+        "availability": "http://schema.org/InStock",
+        "price": 529.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-purple-grade-cardamom-packs?variant=40192476512454",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "PURPLE250G",
+        "availability": "http://schema.org/InStock",
+        "price": 1049.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-purple-grade-cardamom-packs?variant=40192476545222",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "PURPLE500G",
+        "availability": "http://schema.org/InStock",
+        "price": 1999.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-purple-grade-cardamom-packs?variant=40192476577990",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "PURPLE1KG",
+        "availability": "http://schema.org/InStock",
+        "price": 3799.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-purple-grade-cardamom-packs?variant=40192476610758",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "PURPLE5KG",
+        "availability": "http://schema.org/InStock",
+        "price": 18999.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-purple-grade-cardamom-packs?variant=40192476643526",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "PURPLE50G",
+        "availability": "http://schema.org/InStock",
+        "price": 329.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-purple-grade-cardamom-packs?variant=43992855380166",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      }
+    ]
+  }
+]

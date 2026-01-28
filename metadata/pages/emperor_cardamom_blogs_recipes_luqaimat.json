@@ -1,0 +1,52 @@
+{
+  "title": "Luqaimat",
+  "description": "Luqaimat, a popular Middle Eastern dessert, deep-fried balls of pastry covered in date syrup or honey. Crunchy and soft, Luqaimat is a delicious festive treat across the Gulf region. Served mostly in the month of Ramadan, this finger-licking recipe is a breeze to make. Ingredients: For Dough 1 cup - Lukewarm water 2 cu",
+  "url": "https://www.emperorspices.com/blogs/recipes/luqaimat",
+  "images": [
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1457867012_1024x1024.jpg?v=1680864166",
+    "https://cdn.gtranslate.net/shopify/assets/flags/16/en.png",
+    "https://cdn.shopify.com/s/files/1/0581/5926/8038/files/water.png?v=1708940610",
+    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "https://www.emperorspices.com/cdn/shop/articles/123_1024x1024.jpg?v=1680863969",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1457867012_{width}x.jpg?v=1680864166",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1711880434_02_0d876e5a-c49b-40f9-b63a-deb4183d2e33_1024x1024.jpg?v=1680864182",
+    "https://www.emperorspices.com/cdn/shop/articles/123_{width}x.jpg?v=1680863969",
+    "https://www.facebook.com/tr?id=960097991265838&ev=PageView&noscript=1",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1711880434_02_0d876e5a-c49b-40f9-b63a-deb4183d2e33_{width}x.jpg?v=1680864182",
+    "https://www.emperorspices.com/cdn/shop/files/ESP_260x.png?v=1766236878"
+  ],
+  "json_ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": "Luqaimat, a popular Middle Eastern dessert, deep-fried balls of pastry covered in date syrup or honey. Crunchy and soft, Luqaimat is a delicious festive treat across the Gulf region. Served mostly in the month of Ramadan, this finger-licking recipe is a breeze to make.\nIngredients:\nFor Dough\n\n1 cup - Lukewarm water\n2 cups - All purpose flour\n1 tbsp - Instant dry yeast\n1 - Egg\n1 tbsp - Sugar\nA pinch of salt\n1 cup - Sunflower oil, for frying\n1¼ cup - Extra oil, to dip a teaspoon when dropping dough balls into hot oil\n\nFor Syrup\n\n2 cups - Sugar\n2 cups - Water\n1 tbsp - Lemon juice\n\nHow to make Luqaimat:\n\nStart with making the syrup. Mix sugar and water in a pot and bring it to boil.\nLet it boil for about 15 minutes until it gets a little sticky and add lemon juice and boil for a further five minutes. Let it cool.\nMix lukewarm water, sugar and yeast in a cup.\nShift flour in a large bowl.\nPour yeast mixture in it and mix with an electric mixer.\nAdd egg and salt and mix. You will get a soft and sticky batter, a little thicker than a regular cake batter.\nCover the bowl and wait about an hour until it doubles in size.\nHeat oil in a deep pot until boiling point.\nTake some dough in your hand and squeeze it so that you see a small amount between your thumb and forefinger.\nDip a teaspoon into a little oil and use it to drop that rounded bit of dough into boiling oil.\nFry it until golden for about a minute.\nRepeat the same steps until you finish the dough.\nTransfer fried dough balls immediately into cold syrup and leave them in it as long as you want. The longer the sweeter.\nTake them from syrup when they absorb enough of it and serve warm.\n",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.emperorspices.com/blogs/recipes/luqaimat"
+      },
+      "headline": "Luqaimat",
+      "description": "Served mostly in the month of Ramadan, Luqaimat, a popular Middle Eastern dessert, deep-fried balls of pastry covered in date syrup or honey. Crunchy and soft, Luqaimat is a delicious festive treat across the Gulf region. \nThis finger-licking recipe is a breeze to make.",
+      "image": [
+        "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1711880434_02_0d876e5a-c49b-40f9-b63a-deb4183d2e33_884x.jpg?v=1680864182"
+      ],
+      "datePublished": "2021-08-05T00:02:00Z",
+      "dateCreated": "2021-08-04T20:39:42Z",
+      "dateModified": "2023-04-07T16:13:02Z",
+      "author": {
+        "@type": "Person",
+        "name": "Samex India Pvt. Ltd."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 1000,
+          "url": "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1711880434_02_0d876e5a-c49b-40f9-b63a-deb4183d2e33_884x.jpg?v=1680864182",
+          "width": 884
+        },
+        "name": "Emperor Spices Cardamom"
+      }
+    }
+  ],
+  "scraped_at": "2026-01-24T15:00:57.175876"
+}

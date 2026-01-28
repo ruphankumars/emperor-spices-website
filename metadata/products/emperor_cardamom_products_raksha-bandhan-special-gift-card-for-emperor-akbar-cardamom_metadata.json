@@ -1,0 +1,80 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.emperorspices.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Emperor Spices E-Gift Card",
+        "item": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Emperor Spices E-Gift Card",
+    "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom",
+    "image": [
+      "https://www.emperorspices.com/cdn/shop/files/Giftcardfinal-01_4500x.jpg?v=1754982080"
+    ],
+    "description": "Emperor Spices Cardamom is more than just a spice.It’s the warmth in your chai, the comfort in old memories,The quiet calm after a long day,And the flavour of every celebration with friends and family.\nNow you can share this feeling with the Emperor Spices Cardamom E-Gift Card. Perfect for every celebration and every special moment. It’s a thoughtful and flexible way to let your loved ones choose when to enjoy the rich, royal taste of our premium cardamom.\nEmperor Spices Cardamom is a gift of aroma, taste, flavour, tradition and care that makes every occasion truly special.",
+    "brand": {
+      "@type": "Thing",
+      "name": "Emperor Spices Cardamom"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": 529.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom?variant=44800308150470",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": 1149.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom?variant=44800308117702",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": 2099.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom?variant=44800308084934",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "availability": "http://schema.org/InStock",
+        "price": 3999.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom?variant=44800308052166",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      }
+    ]
+  }
+]

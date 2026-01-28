@@ -1,0 +1,56 @@
+{
+    "name": "Kheer",
+    "description": "An Indian traditional dessert usually made during festivals and celebrations. Easy to cook; with ingredients readily available at home. Savour the delicate flavours of cardamom in this Indian delicacy!",
+    "source_url": "https://www.emperorspices.com/blogs/recipes/recipe-1",
+    "ingredients": [
+        {
+            "item": "Milk",
+            "quantity": "600 ml"
+        },
+        {
+            "item": "Water",
+            "quantity": "1/2 cup"
+        },
+        {
+            "item": "Basmati rice",
+            "quantity": "1/4 cup"
+        },
+        {
+            "item": "Organic sugar",
+            "quantity": "6-8 tsp"
+        },
+        {
+            "item": "Cardamom powder",
+            "quantity": "1/2 tsp"
+        },
+        {
+            "item": "Nuts (Cashew/Almond/Raisin/Pistachio)",
+            "quantity": "as needed"
+        },
+        {
+            "item": "Ghee for frying nuts",
+            "quantity": "1 tsp"
+        },
+        {
+            "item": "Saffron",
+            "quantity": "a pinch"
+        }
+    ],
+    "instructions": [
+        "Wash rice a few times and drain completely.",
+        "Chop the nuts and set aside.",
+        "Pour 1/4 cup water to a pot. This prevents Kheer from getting scorched at the bottom.",
+        "Then pour milk and bring to a boil. Keep stirring.",
+        "Add drained rice and begin to cook on a medium flame until rice is soft, completely cooked and lightly mushy.",
+        "Add sugar and continue to cook until rice kheer turns thick.",
+        "Add cardamom powder, chopped nuts, saffron. Stir and continue to cook for 5 minutes.",
+        "Turn off the heat and serve warm or chilled."
+    ],
+    "seo_keywords": [
+        "kheer recipe",
+        "indian dessert",
+        "cardamom dessert",
+        "rice pudding",
+        "festival dessert"
+    ]
+}

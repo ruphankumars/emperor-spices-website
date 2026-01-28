@@ -1,0 +1,109 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.emperorspices.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Green Grade (7-8mm) Cardamom",
+        "item": "https://www.emperorspices.com/products/aroma-lock-green-grade-cardamom-packs"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Green Grade (7-8mm) Cardamom",
+    "url": "https://www.emperorspices.com/products/aroma-lock-green-grade-cardamom-packs",
+    "image": [
+      "https://www.emperorspices.com/cdn/shop/products/ESP_Prducts_Shopgreen_2168x.jpg?v=1653464522"
+    ],
+    "description": "Origin: South India\nSpeciality: GI-tagged Alleppey Green Aroma Lock Cardamom\nGrade: Green\nSize: Pods of diameter 7mm - 8mm\nUsage: Versatile spice, ideal for the discerning home consumer\nManufactured / Packed by: Samex India Pvt. Ltd. Dist. Theni, Tamil Nadu, India",
+    "sku": "GREEN100G",
+    "brand": {
+      "@type": "Thing",
+      "name": "Emperor Spices Cardamom"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "sku": "GREEN100G",
+        "availability": "http://schema.org/InStock",
+        "price": 499.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-green-grade-cardamom-packs?variant=40192485097670",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "GREEN250G",
+        "availability": "http://schema.org/InStock",
+        "price": 999.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-green-grade-cardamom-packs?variant=40192485130438",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "GREEN500G",
+        "availability": "http://schema.org/InStock",
+        "price": 1899.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-green-grade-cardamom-packs?variant=40192485163206",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "GREEN1KG",
+        "availability": "http://schema.org/InStock",
+        "price": 3599.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-green-grade-cardamom-packs?variant=40192485195974",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "GREEN5KG",
+        "availability": "http://schema.org/InStock",
+        "price": 17499.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-green-grade-cardamom-packs?variant=40192485228742",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "GREEN50G",
+        "availability": "http://schema.org/InStock",
+        "price": 299.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-green-grade-cardamom-packs?variant=43992820908230",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      }
+    ]
+  }
+]

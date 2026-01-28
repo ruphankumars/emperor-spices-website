@@ -1,0 +1,52 @@
+{
+  "title": "Orange and Cardamom Cheese Cake",
+  "description": "Rich, moist and zesty flavours infused with aromatic cardamom and spiked orange juice. Whip up this delicious recipe and enjoy a delicious cheesecake. A sumptuous sweet treat for dessert lovers. Ingredients: 75 g - Butter 150 g - Digestive biscuits 200 g - Full fat cream cheese 125 g - Condensed milk 1 tsp - Green card",
+  "url": "https://www.emperorspices.com/blogs/recipes/orange-and-cardamom-cheese-cake",
+  "images": [
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1457867012_1024x1024.jpg?v=1680864166",
+    "https://cdn.gtranslate.net/shopify/assets/flags/16/en.png",
+    "https://cdn.shopify.com/s/files/1/0581/5926/8038/files/water.png?v=1708940610",
+    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1163579587_{width}x.jpg?v=1680864139",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1457867012_{width}x.jpg?v=1680864166",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1711880434_02_0d876e5a-c49b-40f9-b63a-deb4183d2e33_1024x1024.jpg?v=1680864182",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1163579587_1024x1024.jpg?v=1680864139",
+    "https://www.facebook.com/tr?id=960097991265838&ev=PageView&noscript=1",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1711880434_02_0d876e5a-c49b-40f9-b63a-deb4183d2e33_{width}x.jpg?v=1680864182",
+    "https://www.emperorspices.com/cdn/shop/files/ESP_260x.png?v=1766236878"
+  ],
+  "json_ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": "Rich, moist and zesty flavours infused with aromatic cardamom and spiked orange juice. Whip up this delicious recipe and enjoy a delicious cheesecake. A sumptuous sweet treat for dessert lovers.\n\nIngredients:\n\n75 g - Butter\n150 g - Digestive biscuits\n200 g - Full fat cream cheese\n125 g - Condensed milk\n1 tsp - Green cardamom (powdered)\n2 tbsp - Muscovado sugar\n2 - Eggs\n1 tbsp - Icing sugar\nOrange rind and juice from 1 orange\nWhipped cream and orange segments for garnish\n\nHow to make Orange and Cardamom Cheese Cake:\n\nAdd butter to a large bowl and allow it to soften. Grind the biscuits to fine crumbs in a food processor.\nIn another bowl, take the biscuits crumbs and add the softened butter to it. Mix well to combine both the ingredients properly.\nTake a loose bottomed cake tin, 6” in diameter, grease the base and layer the biscuit-butter mixture evenly over it.\nPress the mixture well on the base to help it settle down firmly. Place the cake tin in an oven preheated at 325°F. Bake for 45 minutes and then remove from the oven and keep aside to cool.\nNow take a large bowl, add cream cheese and beat well to soften aptly. Then add the condensed milk and mix further. Add in the cardamom powder, muscavado sugar, eggs, orange juice and rind.\n",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.emperorspices.com/blogs/recipes/orange-and-cardamom-cheese-cake"
+      },
+      "headline": "Orange and Cardamom Cheese Cake",
+      "description": "Rich, moist and zesty flavours infused with aromatic cardamom and spiked orange juice. Whip up this delicious recipe and enjoy a delicious cheesecake.\nA sumptuous sweet treat for dessert lovers.",
+      "image": [
+        "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1457867012_1000x.jpg?v=1680864166"
+      ],
+      "datePublished": "2021-08-05T00:00:00Z",
+      "dateCreated": "2021-07-05T23:35:08Z",
+      "dateModified": "2023-04-07T16:12:46Z",
+      "author": {
+        "@type": "Person",
+        "name": "Samex India Pvt. Ltd."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 667,
+          "url": "https://www.emperorspices.com/cdn/shop/articles/shutterstock_1457867012_1000x.jpg?v=1680864166",
+          "width": 1000
+        },
+        "name": "Emperor Spices Cardamom"
+      }
+    }
+  ],
+  "scraped_at": "2026-01-24T15:00:49.790197"
+}

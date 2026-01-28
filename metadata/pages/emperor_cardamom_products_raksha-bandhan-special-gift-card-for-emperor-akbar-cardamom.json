@@ -1,0 +1,154 @@
+{
+  "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom",
+  "title": "Emperor Spices E-Gift Card",
+  "price": null,
+  "description": "Emperor Spices Cardamom is more than just a spice.It’s the warmth in your chai, the comfort in old memories,The quiet calm after a long day,And the flavour of every celebration with friends and family.Now you can share this feeling with theEmperor Spices Cardamom E-Gift Card. Perfect for every celebration and every special moment.It’s a thoughtful and flexible way to let your loved ones choose when to enjoy the rich, royal taste of our premium cardamom.Emperor Spices Cardamom is a gift of aroma, taste, flavour, tradition and care that makes every occasion truly special.",
+  "variants": [],
+  "images": [
+    {
+      "url": "https://www.facebook.com/tr?id=960097991265838&ev=PageView&noscript=1",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://www.emperorspices.com/cdn/shop/files/ESP_260x.png?v=1766236878",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://www.emperorspices.com/cdn/shop/files/Giftcardfinal-01_{width}x.jpg?v=1754982080",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://www.emperorspices.com/cdn/shop/files/Giftcardfinal-01_1024x1024.jpg?v=1754982080",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://www.emperorspices.com/cdn/shop/files/ESP_Website_MISC-07_869af3c3-d169-449d-a9dc-1db16cf3e7a4_{width}x.png?v=1625644495",
+      "alt": "Best of India",
+      "title": ""
+    },
+    {
+      "url": "https://www.emperorspices.com/cdn/shop/files/ESP_Website_MISC-07_869af3c3-d169-449d-a9dc-1db16cf3e7a4_1024x1024.png?v=1625644495",
+      "alt": "Best of India",
+      "title": ""
+    },
+    {
+      "url": "https://www.emperorspices.com/cdn/shop/files/ESP_Website_MISC-08_fa8961ff-77d3-45d5-979b-5ba895ee61ac_{width}x.png?v=1625644482",
+      "alt": "GI-Tagged Alleppey Green Cardamom",
+      "title": ""
+    },
+    {
+      "url": "https://www.emperorspices.com/cdn/shop/files/ESP_Website_MISC-08_fa8961ff-77d3-45d5-979b-5ba895ee61ac_1024x1024.png?v=1625644482",
+      "alt": "GI-Tagged Alleppey Green Cardamom",
+      "title": ""
+    },
+    {
+      "url": "https://www.emperorspices.com/cdn/shop/files/ESP_Website_MISC-09_b5c70494-b323-444b-84c9-7263d49151d9_{width}x.png?v=1625644466",
+      "alt": "Aroma Lock",
+      "title": ""
+    },
+    {
+      "url": "https://www.emperorspices.com/cdn/shop/files/ESP_Website_MISC-09_b5c70494-b323-444b-84c9-7263d49151d9_1024x1024.png?v=1625644466",
+      "alt": "Aroma Lock",
+      "title": ""
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0581/5926/8038/files/water.png?v=1708940610",
+      "alt": "Water Communications",
+      "title": "Water Communications"
+    },
+    {
+      "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "alt": "paypal",
+      "title": ""
+    },
+    {
+      "url": "https://cdn.gtranslate.net/shopify/assets/flags/16/en.png",
+      "alt": "en",
+      "title": ""
+    }
+  ],
+  "structured_data": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.emperorspices.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Emperor Spices E-Gift Card",
+          "item": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom"
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Product",
+      "name": "Emperor Spices E-Gift Card",
+      "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom",
+      "image": [
+        "https://www.emperorspices.com/cdn/shop/files/Giftcardfinal-01_4500x.jpg?v=1754982080"
+      ],
+      "description": "Emperor Spices Cardamom is more than just a spice.It’s the warmth in your chai, the comfort in old memories,The quiet calm after a long day,And the flavour of every celebration with friends and family.\nNow you can share this feeling with the Emperor Spices Cardamom E-Gift Card. Perfect for every celebration and every special moment. It’s a thoughtful and flexible way to let your loved ones choose when to enjoy the rich, royal taste of our premium cardamom.\nEmperor Spices Cardamom is a gift of aroma, taste, flavour, tradition and care that makes every occasion truly special.",
+      "brand": {
+        "@type": "Thing",
+        "name": "Emperor Spices Cardamom"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": 529.0,
+          "priceCurrency": "INR",
+          "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom?variant=44800308150470",
+          "seller": {
+            "@type": "Organization",
+            "name": "Emperor Spices Cardamom"
+          }
+        },
+        {
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": 1149.0,
+          "priceCurrency": "INR",
+          "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom?variant=44800308117702",
+          "seller": {
+            "@type": "Organization",
+            "name": "Emperor Spices Cardamom"
+          }
+        },
+        {
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": 2099.0,
+          "priceCurrency": "INR",
+          "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom?variant=44800308084934",
+          "seller": {
+            "@type": "Organization",
+            "name": "Emperor Spices Cardamom"
+          }
+        },
+        {
+          "@type": "Offer",
+          "availability": "http://schema.org/InStock",
+          "price": 3999.0,
+          "priceCurrency": "INR",
+          "url": "https://www.emperorspices.com/products/raksha-bandhan-special-gift-card-for-emperorspices-cardamom?variant=44800308052166",
+          "seller": {
+            "@type": "Organization",
+            "name": "Emperor Spices Cardamom"
+          }
+        }
+      ]
+    }
+  ]
+}

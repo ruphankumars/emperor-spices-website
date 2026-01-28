@@ -1,0 +1,52 @@
+{
+  "title": "Saffron and Dates Granola",
+  "description": "Saffron and Dates Granola is nutritious, flavorful and a perfect meal. Packed with flavours of saffron and other dry nuts it is best served with cardamom milk. Fasting or feasting, a perfect recipe to keep your energy high!  Ingredients: 125 gm - Oats 5 tbsp - Honey ¼ tsp - Saffron crushed 25 gm - Almond flakes 25 gm -",
+  "url": "https://www.emperorspices.com/blogs/recipes/saffron-and-dates-granola",
+  "images": [
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_652405729_1024x1024.jpg?v=1680864107",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_732483724_1024x1024.jpg?v=1680864096",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_652405729_{width}x.jpg?v=1680864107",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_371356012_{width}x.jpg?v=1680864148",
+    "https://cdn.shopify.com/s/files/1/0581/5926/8038/files/water.png?v=1708940610",
+    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_732483724_{width}x.jpg?v=1680864096",
+    "https://www.facebook.com/tr?id=960097991265838&ev=PageView&noscript=1",
+    "https://cdn.gtranslate.net/shopify/assets/flags/16/en.png",
+    "https://www.emperorspices.com/cdn/shop/files/ESP_260x.png?v=1766236878",
+    "https://www.emperorspices.com/cdn/shop/articles/shutterstock_371356012_1024x1024.jpg?v=1680864148"
+  ],
+  "json_ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": "Saffron and Dates Granola is nutritious, flavorful and a perfect meal. Packed with flavours of saffron and other dry nuts it is best served with cardamom milk. Fasting or feasting, a perfect recipe to keep your energy high!\n Ingredients:\n\n125 gm - Oats\n5 tbsp - Honey\n¼ tsp - Saffron crushed\n25 gm - Almond flakes\n25 gm - Dates (chopped)\n5 gm - Flax Seeds (optional)\n\nFor Cardamom Milk: (Single Serving)\n\n100 ml - Milk\n2/3 pods - Emperor Spices Cardamom\n\nHow to Make Saffron and Dates Granola: \n\nPre heat the oven for about 10 minutes @ 160 degrees. Line the tray with baking sheet.\nMix together all the ingredients and oats until combined.\nSpread the prepared mix on the lined tray.\nPlace the tray in the oven and bake for 10 minutes or until toasted.\nFrom time-to-time check the granola when in oven, as it has the tendency to burn quickly.\nCool completely and break into clumps and store in an airtight jar.\n\nFOR CARDAMOM MILK: Pour Milk in a bowl. Add in cardamom pods. Simmer for 5 to 10 minutes and cool.\n\n ",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.emperorspices.com/blogs/recipes/saffron-and-dates-granola"
+      },
+      "headline": "Saffron and Dates Granola",
+      "description": "Saffron and Dates Granola is nutritious, flavorful and a perfect meal. Packed with flavours of saffron and other dry nuts it is best served with cardamom milk. \nFasting or feasting, a perfect recipe to keep your energy high!",
+      "image": [
+        "https://www.emperorspices.com/cdn/shop/articles/shutterstock_732483724_1000x.jpg?v=1680864096"
+      ],
+      "datePublished": "2021-08-04T20:17:41Z",
+      "dateCreated": "2021-08-04T20:11:13Z",
+      "dateModified": "2023-04-07T16:11:36Z",
+      "author": {
+        "@type": "Person",
+        "name": "Samex India Pvt. Ltd."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 667,
+          "url": "https://www.emperorspices.com/cdn/shop/articles/shutterstock_732483724_1000x.jpg?v=1680864096",
+          "width": 1000
+        },
+        "name": "Emperor Spices Cardamom"
+      }
+    }
+  ],
+  "scraped_at": "2026-01-24T15:00:53.833220"
+}

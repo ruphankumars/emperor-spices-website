@@ -1,0 +1,110 @@
+{
+  "url": "https://emperorspices.com/product/pepper-powder/",
+  "category": "spices",
+  "title": "Pepper Powder",
+  "price": "₹0.00",
+  "regular_price": null,
+  "sale_price": null,
+  "sku": null,
+  "description": null,
+  "short_description": null,
+  "images": [
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/2022/12/Group-52.svg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/2023/05/Spices-Powder-Paper-Package_Pepper-600x600.jpg",
+      "alt": "Pepper Powder",
+      "title": ""
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/2023/05/1.-Zipper-Pouch-Reusable.png",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/2023/05/2.-Pillow-Pouches.png",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/2023/05/3.-Carton.png",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/2023/05/4.-Paper-Package.png",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/2023/05/5.-PET-Bottle.png",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/2023/05/6.-Small-PET-Bottle.png",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/elementor/thumbs/Small-PET-Bottle-Pepper-Powder-qj5slaw8o76fh685jym7yge9y3zbtw9sjgy34g36kg.jpg",
+      "alt": "Small PET Bottle Pepper Powder",
+      "title": "Small PET Bottle Pepper Powder"
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/elementor/thumbs/Small-PET-Bottle-Chilli-flakes-qj5slaw8o76fh685jym7yge9y3zbtw9sjgy34g36kg.jpg",
+      "alt": "Small PET Bottle Chilli flakes",
+      "title": "Small PET Bottle Chilli flakes"
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/elementor/thumbs/Spices-Powder-Paper-Package_Chilli-qj5slaw8o76fh685jym7yge9y3zbtw9sjgy34g36kg.jpg",
+      "alt": "Spices Powder Paper Package_Chilli",
+      "title": "Spices Powder Paper Package_Chilli"
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/elementor/thumbs/Spices-Powder-Paper-Package_Turmeric-qj5slaw8o76fh685jym7yge9y3zbtw9sjgy34g36kg.jpg",
+      "alt": "Spices Powder Paper Package_Turmeric",
+      "title": "Spices Powder Paper Package_Turmeric"
+    },
+    {
+      "url": "https://emperorspices.com/wp-content/uploads/2022/12/Group-52.svg",
+      "alt": "",
+      "title": ""
+    }
+  ],
+  "structured_data": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "name": "Home",
+            "@id": "https://emperorspices.com"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "name": "Spices &amp;amp; Food Products",
+            "@id": "https://emperorspices.com/product-category/spices/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "name": "Pepper Powder",
+            "@id": "https://emperorspices.com/product/pepper-powder/"
+          }
+        }
+      ]
+    }
+  ]
+}

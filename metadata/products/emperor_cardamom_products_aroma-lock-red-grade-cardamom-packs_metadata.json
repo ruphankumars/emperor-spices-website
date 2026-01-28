@@ -1,0 +1,85 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.emperorspices.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Red Grade (6-7mm) Cardamom",
+        "item": "https://www.emperorspices.com/products/aroma-lock-red-grade-cardamom-packs"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Red Grade (6-7mm) Cardamom",
+    "url": "https://www.emperorspices.com/products/aroma-lock-red-grade-cardamom-packs",
+    "image": [
+      "https://www.emperorspices.com/cdn/shop/products/ESP_Prducts_ShopRed_2168x.jpg?v=1653465200"
+    ],
+    "description": "Origin: South India\nSpeciality: GGI-tagged Alleppey Green Aroma Lock Cardamom\nGrade: Red\nSize: 6mm - 7mm\nUsage: Versatile spice, ideal for industrial use\nManufactured / Packed by: Samex India Pvt. Ltd. Dist. Theni, Tamil Nadu, India",
+    "sku": "RED250G",
+    "brand": {
+      "@type": "Thing",
+      "name": "Emperor Spices Cardamom"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "sku": "RED250G",
+        "availability": "http://schema.org/InStock",
+        "price": 949.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-red-grade-cardamom-packs?variant=40192506986694",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "RED1KG",
+        "availability": "http://schema.org/InStock",
+        "price": 3399.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-red-grade-cardamom-packs?variant=40192507019462",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "RED5KG",
+        "availability": "http://schema.org/InStock",
+        "price": 16499.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-red-grade-cardamom-packs?variant=40192507052230",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      },
+      {
+        "@type": "Offer",
+        "sku": "RED500G",
+        "availability": "http://schema.org/InStock",
+        "price": 1799.0,
+        "priceCurrency": "INR",
+        "url": "https://www.emperorspices.com/products/aroma-lock-red-grade-cardamom-packs?variant=43992879497414",
+        "seller": {
+          "@type": "Organization",
+          "name": "Emperor Spices Cardamom"
+        }
+      }
+    ]
+  }
+]

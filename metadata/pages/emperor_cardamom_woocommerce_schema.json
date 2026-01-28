@@ -1,0 +1,818 @@
+[
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Pepper Powder",
+          "@id": "https://emperorspices.com/product/pepper-powder/"
+        }
+      }
+    ],
+    "_source_file": "product_pepper-powder.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Pepper Powder",
+      "_source_file": "product_pepper-powder.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Breakfast Powders",
+          "@id": "https://emperorspices.com/product-category/spices/breakfast/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "name": "Wheat Puttu Podi",
+          "@id": "https://emperorspices.com/product/wheat-puttu-podi/"
+        }
+      }
+    ],
+    "_source_file": "product_wheat-puttu-podi.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Wheat Puttu Podi",
+      "_source_file": "product_wheat-puttu-podi.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Cardamom",
+          "@id": "https://emperorspices.com/product-category/cardamom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Cardamom – Pillow Pouch",
+          "@id": "https://emperorspices.com/product/cardamom-pillow-pouch-6-mm-to-7-mm/"
+        }
+      }
+    ],
+    "_source_file": "product_cardamom-pillow-pouch-6-mm-to-7-mm.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Cardamom – Pillow Pouch",
+      "_source_file": "product_cardamom-pillow-pouch-6-mm-to-7-mm.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Breakfast Powders",
+          "@id": "https://emperorspices.com/product-category/spices/breakfast/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "name": "Instant Palappam Mix",
+          "@id": "https://emperorspices.com/product/instant-palappam-mix/"
+        }
+      }
+    ],
+    "_source_file": "product_instant-palappam-mix.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Instant Palappam Mix",
+      "_source_file": "product_instant-palappam-mix.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Breakfast Powders",
+          "@id": "https://emperorspices.com/product-category/spices/breakfast/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "name": "Appam Idiyappam Pathiri",
+          "@id": "https://emperorspices.com/product/appam-idiyappam-pathiri-podi/"
+        }
+      }
+    ],
+    "_source_file": "product_appam-idiyappam-pathiri-podi.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Appam Idiyappam Pathiri",
+      "_source_file": "product_appam-idiyappam-pathiri-podi.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Cardamom",
+          "@id": "https://emperorspices.com/product-category/cardamom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Cardamom –Zipper Pouch",
+          "@id": "https://emperorspices.com/product/cardamom-zipper-pouch-7-mm-to-8-mm/"
+        }
+      }
+    ],
+    "_source_file": "product_cardamom-zipper-pouch-7-mm-to-8-mm.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Cardamom –Zipper Pouch",
+      "_source_file": "product_cardamom-zipper-pouch-7-mm-to-8-mm.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Breakfast Powders",
+          "@id": "https://emperorspices.com/product-category/spices/breakfast/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "name": "Steamed White Puttu Podi",
+          "@id": "https://emperorspices.com/product/1947/"
+        }
+      }
+    ],
+    "_source_file": "product_1947.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Steamed White Puttu Podi",
+      "_source_file": "product_1947.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Breakfast Powders",
+          "@id": "https://emperorspices.com/product-category/spices/breakfast/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "name": "Chemba Puttu Podi",
+          "@id": "https://emperorspices.com/product/chemba-puttu-podi/"
+        }
+      }
+    ],
+    "_source_file": "product_chemba-puttu-podi.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Chemba Puttu Podi",
+      "_source_file": "product_chemba-puttu-podi.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Cardamom",
+          "@id": "https://emperorspices.com/product-category/cardamom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Cardamom – PET Bottle",
+          "@id": "https://emperorspices.com/product/cardamom-pet-bottle/"
+        }
+      }
+    ],
+    "_source_file": "product_cardamom-pet-bottle.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Cardamom – PET Bottle",
+      "_source_file": "product_cardamom-pet-bottle.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Cardamom",
+          "@id": "https://emperorspices.com/product-category/cardamom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Cardamom – Zipper Pouch",
+          "@id": "https://emperorspices.com/product/cardamom-zipper-pouch/"
+        }
+      }
+    ],
+    "_source_file": "product_cardamom-zipper-pouch.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Cardamom – Zipper Pouch",
+      "_source_file": "product_cardamom-zipper-pouch.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Cardamom",
+          "@id": "https://emperorspices.com/product-category/cardamom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Cardamom Seeds",
+          "@id": "https://emperorspices.com/product/cardamom-seeds-premium-grade/"
+        }
+      }
+    ],
+    "_source_file": "product_cardamom-seeds-premium-grade.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Cardamom Seeds",
+      "_source_file": "product_cardamom-seeds-premium-grade.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Breakfast Powders",
+          "@id": "https://emperorspices.com/product-category/spices/breakfast/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "name": "Easy Idiyappam Podi",
+          "@id": "https://emperorspices.com/product/easy-idiyappam-podi/"
+        }
+      }
+    ],
+    "_source_file": "product_easy-idiyappam-podi.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Easy Idiyappam Podi",
+      "_source_file": "product_easy-idiyappam-podi.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Cardamom",
+          "@id": "https://emperorspices.com/product-category/cardamom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Cardamom – Pillow Pouch",
+          "@id": "https://emperorspices.com/product/cardamom-pillow-pouch-7-mm-to-8-mm/"
+        }
+      }
+    ],
+    "_source_file": "product_cardamom-pillow-pouch-7-mm-to-8-mm.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Cardamom – Pillow Pouch",
+      "_source_file": "product_cardamom-pillow-pouch-7-mm-to-8-mm.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Chilly Flakes",
+          "@id": "https://emperorspices.com/product/chilly-flakes-premium-grade/"
+        }
+      }
+    ],
+    "_source_file": "product_chilly-flakes-premium-grade.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Chilly Flakes",
+      "_source_file": "product_chilly-flakes-premium-grade.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Cardamom",
+          "@id": "https://emperorspices.com/product-category/cardamom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Cardamom – Pillow Pouch",
+          "@id": "https://emperorspices.com/product/cardamom-pillow-pouch-8-mm-and-above/"
+        }
+      }
+    ],
+    "_source_file": "product_cardamom-pillow-pouch-8-mm-and-above.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Cardamom – Pillow Pouch",
+      "_source_file": "product_cardamom-pillow-pouch-8-mm-and-above.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Cardamom",
+          "@id": "https://emperorspices.com/product-category/cardamom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Cardamom –Zipper Pouch",
+          "@id": "https://emperorspices.com/product/cardamom-zipper-pouch-6-mm-to-7-mm/"
+        }
+      }
+    ],
+    "_source_file": "product_cardamom-zipper-pouch-6-mm-to-7-mm.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Cardamom –Zipper Pouch",
+      "_source_file": "product_cardamom-zipper-pouch-6-mm-to-7-mm.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Pepper Powder",
+          "@id": "https://emperorspices.com/product/pepper-powder-2/"
+        }
+      }
+    ],
+    "_source_file": "product_pepper-powder-2.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Pepper Powder",
+      "_source_file": "product_pepper-powder-2.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Breakfast Powders",
+          "@id": "https://emperorspices.com/product-category/spices/breakfast/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "name": "Instant Idly Dosa Mix",
+          "@id": "https://emperorspices.com/product/instant-idly-dosa-mix/"
+        }
+      }
+    ],
+    "_source_file": "product_instant-idly-dosa-mix.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Instant Idly Dosa Mix",
+      "_source_file": "product_instant-idly-dosa-mix.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Turmeric Powder",
+          "@id": "https://emperorspices.com/product/turmeric-powder-premium-grade/"
+        }
+      }
+    ],
+    "_source_file": "product_turmeric-powder-premium-grade.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Turmeric Powder",
+      "_source_file": "product_turmeric-powder-premium-grade.html"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "name": "Home",
+          "@id": "https://emperorspices.com"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "name": "Spices &amp;amp; Food Products",
+          "@id": "https://emperorspices.com/product-category/spices/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "name": "Chilly Powder",
+          "@id": "https://emperorspices.com/product/chilly-powder-premium-grade/"
+        }
+      }
+    ],
+    "_source_file": "product_chilly-powder-premium-grade.html"
+  },
+  {
+    "woocommerce_extracted": {
+      "price": "₹0.00",
+      "title": "Chilly Powder",
+      "_source_file": "product_chilly-powder-premium-grade.html"
+    }
+  }
+]
