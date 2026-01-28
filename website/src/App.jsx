@@ -93,7 +93,15 @@ const AppContent = () => {
 
 // Main App
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [showPreloader, setShowPreloader] = useState(true);
+  const [contentReady, setContentReady] = useState(false);
+
+  // Mark content as ready after initial render
+  React.useEffect(() => {
+    // Small delay to ensure content has rendered
+    const timer = setTimeout(() => setContentReady(true), 100);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <Router>
@@ -101,10 +109,26 @@ function App() {
         <ContactProvider>
           <CartProvider>
             <LenisProvider>
-              {loading && <Preloader onComplete={() => setLoading(false)} />}
-              <div className={`app ${loading ? 'loading' : 'loaded'}`}>
+              {/* Content always renders - loads in background */}
+              <div
+                className="app loaded"
+                style={{
+                  opacity: showPreloader ? 0 : 1,
+                  transition: 'opacity 0.8s ease-out',
+                  visibility: showPreloader ? 'hidden' : 'visible',
+                }}
+              >
                 <AppContent />
               </div>
+
+              {/* Video preloader on top - waits for content to be ready */}
+              {showPreloader && (
+                <Preloader
+                  contentReady={contentReady}
+                  onComplete={() => setShowPreloader(false)}
+                />
+              )}
+
               <CartDrawer />
             </LenisProvider>
           </CartProvider>
