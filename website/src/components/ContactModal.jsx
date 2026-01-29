@@ -81,6 +81,7 @@ const ContactModal = () => {
 
     return (
         <div
+            className="contact-modal-container"
             onClick={closeContact}
             style={{
                 position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)',
@@ -89,6 +90,7 @@ const ContactModal = () => {
             }}
         >
             <div
+                className="contact-modal-content"
                 onClick={(e) => e.stopPropagation()}
                 style={{
                     background: '#fff', borderRadius: '24px', width: '100%', maxWidth: '900px',
@@ -97,7 +99,7 @@ const ContactModal = () => {
                 }}
             >
                 {/* Header */}
-                <div style={{
+                <div className="contact-modal-header" style={{
                     background: 'linear-gradient(135deg, #2d6b4a 0%, #1a4030 100%)',
                     padding: '24px 32px', display: 'flex', justifyContent: 'space-between', alignItems: 'center'
                 }}>
@@ -116,10 +118,10 @@ const ContactModal = () => {
                 </div>
 
                 {/* Content - Scrollable */}
-                <div data-lenis-prevent style={{ flex: 1, overflowY: 'auto', padding: '32px', WebkitOverflowScrolling: 'touch' }}>
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '32px' }}>
+                <div className="contact-modal-body" data-lenis-prevent style={{ flex: 1, overflowY: 'auto', padding: '32px', WebkitOverflowScrolling: 'touch' }}>
+                    <div className="contact-modal-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '32px' }}>
                         {/* Contact Info */}
-                        <div style={{ background: '#f8f9fa', padding: '24px', borderRadius: '16px' }}>
+                        <div className="contact-info-box" style={{ background: '#f8f9fa', padding: '24px', borderRadius: '16px' }}>
                             <h3 style={{ fontSize: '1.1rem', fontWeight: '600', marginBottom: '16px', color: '#2d6b4a' }}>
                                 Contact Information
                             </h3>
@@ -155,7 +157,7 @@ const ContactModal = () => {
 
                         {/* Form */}
                         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+                            <div className="form-grid-2col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                                 <div>
                                     <label style={{ display: 'block', marginBottom: '6px', fontWeight: '500', fontSize: '0.9rem' }}>First Name *</label>
                                     <input type="text" name="fullName" value={formData.fullName} onChange={handleChange} required
@@ -215,6 +217,37 @@ const ContactModal = () => {
             </div>
             <style>{`
                 @keyframes modalSlideUp { from { opacity: 0; transform: translateY(30px) scale(0.95); } to { opacity: 1; transform: translateY(0) scale(1); } }
+                
+                @media (max-width: 768px) {
+                    .contact-modal-container {
+                        padding: 10px !important;
+                    }
+                    .contact-modal-content {
+                        max-width: 100% !important;
+                        max-height: 95vh !important;
+                        border-radius: 20px !important;
+                    }
+                    .contact-modal-header {
+                        padding: 16px 20px !important;
+                    }
+                    .contact-modal-header h2 {
+                        font-size: 1.25rem !important;
+                    }
+                    .contact-modal-body {
+                        padding: 20px !important;
+                    }
+                    .contact-modal-grid {
+                        grid-template-columns: 1fr !important;
+                        gap: 20px !important;
+                    }
+                    .contact-info-box {
+                        padding: 16px !important;
+                    }
+                    .form-grid-2col {
+                        grid-template-columns: 1fr !important;
+                        gap: 12px !important;
+                    }
+                }
             `}</style>
         </div>
     );

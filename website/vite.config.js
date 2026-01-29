@@ -31,30 +31,8 @@ export default defineConfig({
     // Enable code splitting for better caching
     rollupOptions: {
       output: {
-        // Optimized chunk splitting function
-        manualChunks: (id) => {
-          // Split node_modules into optimized chunks
-          if (id.includes('node_modules')) {
-            // Three.js ecosystem (heavy, separate chunk)
-            if (id.includes('three') || id.includes('@react-three/fiber') || id.includes('@react-three/drei')) {
-              return 'three'
-            }
-            // GSAP animations
-            if (id.includes('gsap')) {
-              return 'animations-gsap'
-            }
-            // Framer Motion
-            if (id.includes('framer-motion')) {
-              return 'animations-framer'
-            }
-            // React core libraries
-            if (id.includes('react') || id.includes('react-dom') || id.includes('react-router')) {
-              return 'vendor-react'
-            }
-            // Other vendor libraries
-            return 'vendor'
-          }
-        },
+        // Let Vite handle chunking automatically to avoid circular dependencies
+        // The manual chunks were causing: "rA is not a constructor" errors
         // Optimize chunk size
         experimentalMinChunkSize: 10000,
         // Optimize asset file names for better caching
@@ -90,8 +68,8 @@ export default defineConfig({
   // Preload critical assets
   optimizeDeps: {
     include: [
-      'react', 
-      'react-dom', 
+      'react',
+      'react-dom',
       'gsap',
       'use-sync-external-store',
       'use-sync-external-store/shim',

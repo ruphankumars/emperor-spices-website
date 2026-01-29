@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useMemo, useCallback, useState } from 'react';
 import Globe from 'react-globe.gl';
-import * as THREE from 'three';
 
+// Note: THREE import removed as it wasn't being used
 // India coordinates (source point)
 const INDIA_COORDS = { lat: 20.5937, lng: 78.9629 };
 
@@ -92,6 +92,8 @@ const Globe3D = ({ className = '' }) => {
     const globeRef = useRef();
     const containerRef = useRef();
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+    const [isVisible, setIsVisible] = useState(false);
+    const [hasError, setHasError] = useState(false);
 
     // Memoized data
     const arcsData = useMemo(() => createArcsData(), []);
@@ -99,39 +101,97 @@ const Globe3D = ({ className = '' }) => {
     const ringsData = useMemo(() => createRingsData(), []);
     const labelsData = useMemo(() => createLabelsData(), []);
 
-    // Handle container resize
+    // Handle container resize with ResizeObserver for better stability
     useEffect(() => {
-        const updateDimensions = () => {
-            if (containerRef.current) {
-                const { width, height } = containerRef.current.getBoundingClientRect();
-                setDimensions({ width, height });
+        if (!containerRef.current) return;
+
+        const observer = new ResizeObserver((entries) => {
+            for (let entry of entries) {
+                const { width, height } = entry.contentRect;
+                // Only update if dimensions actually changed significantly
+                setDimensions(prev => {
+                    if (Math.abs(prev.width - width) < 5 && Math.abs(prev.height - height) < 5) return prev;
+                    return { width, height };
+                });
+            }
+        });
+
+        observer.observe(containerRef.current);
+        return () => observer.disconnect();
+    }, []);
+
+    // Visibility observer - only render globe when visible
+    useEffect(() => {
+        if (!containerRef.current) return;
+
+        const visibilityObserver = new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                    setIsVisible(entry.isIntersecting);
+                });
+            },
+            { threshold: 0.1 }
+        );
+
+        visibilityObserver.observe(containerRef.current);
+        return () => visibilityObserver.disconnect();
+    }, []);
+
+    // Cleanup on unmount and handle WebGL context
+    useEffect(() => {
+        return () => {
+            // Dispose of globe resources on unmount
+            if (globeRef.current) {
+                try {
+                    const scene = globeRef.current.scene();
+                    if (scene) {
+                        scene.traverse((object) => {
+                            if (object.geometry) object.geometry.dispose();
+                            if (object.material) {
+                                if (Array.isArray(object.material)) {
+                                    object.material.forEach(m => m.dispose());
+                                } else {
+                                    object.material.dispose();
+                                }
+                            }
+                        });
+                    }
+                    const renderer = globeRef.current.renderer();
+                    if (renderer) {
+                        renderer.dispose();
+                        renderer.forceContextLoss();
+                    }
+                } catch (e) {
+                    console.warn('Error disposing globe:', e);
+                }
             }
         };
-
-        updateDimensions();
-        window.addEventListener('resize', updateDimensions);
-        return () => window.removeEventListener('resize', updateDimensions);
     }, []);
 
     // Initialize globe settings
     useEffect(() => {
-        if (globeRef.current) {
-            // Set initial view to focus on India
-            globeRef.current.pointOfView({
-                lat: 20,
-                lng: 60,
-                altitude: 2.0
-            }, 1000);
+        if (globeRef.current && isVisible) {
+            try {
+                // Set initial view to focus on India
+                globeRef.current.pointOfView({
+                    lat: 20,
+                    lng: 60,
+                    altitude: 2.0
+                }, 1000);
 
-            // Start auto-rotation
-            const controls = globeRef.current.controls();
-            if (controls) {
-                controls.autoRotate = true;
-                controls.autoRotateSpeed = 0.5;
-                controls.enableZoom = false;
+                // Start auto-rotation
+                const controls = globeRef.current.controls();
+                if (controls) {
+                    controls.autoRotate = true;
+                    controls.autoRotateSpeed = 0.5;
+                    controls.enableZoom = false;
+                }
+            } catch (e) {
+                console.warn('Error initializing globe:', e);
+                setHasError(true);
             }
         }
-    }, [globeRef.current, dimensions]);
+    }, [isVisible, dimensions.width]);
 
     // Custom HTML for labels
     const labelHtml = useCallback((d) => {
@@ -145,6 +205,31 @@ const Globe3D = ({ className = '' }) => {
         ">${d.text}</div>`;
     }, []);
 
+    // Error state fallback
+    if (hasError) {
+        return (
+            <div
+                ref={containerRef}
+                className={`globe-container ${className}`}
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    position: 'relative',
+                    background: 'linear-gradient(135deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.2) 100%)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    borderRadius: '12px'
+                }}
+            >
+                <div style={{ textAlign: 'center', color: '#666' }}>
+                    <p>🌍 Globe visualization</p>
+                    <p style={{ fontSize: '12px' }}>40+ countries • 6 continents</p>
+                </div>
+            </div>
+        );
+    }
+
     return (
         <div
             ref={containerRef}
@@ -156,7 +241,7 @@ const Globe3D = ({ className = '' }) => {
                 background: 'transparent'
             }}
         >
-            {dimensions.width > 0 && (
+            {dimensions.width > 0 && isVisible && (
                 <Globe
                     ref={globeRef}
                     width={dimensions.width}
@@ -204,7 +289,7 @@ const Globe3D = ({ className = '' }) => {
                     labelSize="size"
                     labelDotRadius={0.5}
                     labelColor="color"
-                    labelResolution={3}
+                    labelResolution={2}
                     labelAltitude={0.02}
 
                     // Custom label HTML
@@ -212,7 +297,8 @@ const Globe3D = ({ className = '' }) => {
                     htmlElement={labelHtml}
                     htmlAltitude={0.05}
 
-                    // Performance
+                    // Performance & Detail optimization
+                    globeTesselation={24}
                     animateIn={true}
                     waitForGlobeReady={true}
                 />

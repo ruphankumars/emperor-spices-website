@@ -19,24 +19,29 @@ const CartDrawer = () => {
             />
 
             {/* Drawer */}
-            <div style={{
+            <div className="cart-drawer" style={{
                 position: 'fixed', top: 0, right: 0, bottom: 0,
                 width: '100%', maxWidth: '400px', background: 'white',
                 zIndex: 9999, display: 'flex', flexDirection: 'column',
-                boxShadow: '-10px 0 30px rgba(0,0,0,0.1)',
-                animation: 'slideInRight 0.3s ease-out'
+                boxShadow: '-10px 0 30px rgba(0,0,0,0.15)',
+                animation: 'slideInRight 0.3s ease-out',
+                borderRadius: '24px 0 0 24px'
             }}>
                 {/* Header */}
-                <div style={{
-                    padding: '20px', borderBottom: '1px solid #eee',
+                <div className="cart-drawer-header" style={{
+                    padding: '20px', borderBottom: '1px solid rgba(45, 74, 62, 0.1)',
                     display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    background: '#fcfcfc'
+                    background: 'linear-gradient(145deg, #FAF8F5, #F5F0E8)',
+                    borderRadius: '24px 0 0 0'
                 }}>
-                    <h2 style={{ fontSize: '1.2rem', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <h2 style={{ fontSize: '1.2rem', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '10px', color: 'var(--color-forest)' }}>
                         <ShoppingBag size={20} /> Your Cart ({cart.length})
                     </h2>
-                    <button onClick={toggleCart} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '8px' }}>
-                        <X size={24} />
+                    <button onClick={toggleCart} style={{
+                        background: 'rgba(45, 74, 62, 0.1)', border: 'none', cursor: 'pointer', padding: '10px',
+                        borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'
+                    }}>
+                        <X size={20} color="var(--color-forest)" />
                     </button>
                 </div>
 
@@ -92,8 +97,8 @@ const CartDrawer = () => {
 
                 {/* Footer */}
                 {cart.length > 0 && (
-                    <div style={{ padding: '24px', background: '#fcfcfc', borderTop: '1px solid #eee' }}>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '16px', fontSize: '1.1rem', fontWeight: '700' }}>
+                    <div style={{ padding: '24px', background: 'linear-gradient(145deg, #FAF8F5, #F5F0E8)', borderTop: '1px solid rgba(45, 74, 62, 0.1)', borderRadius: '0 0 0 24px' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '16px', fontSize: '1.1rem', fontWeight: '700', color: 'var(--color-forest)' }}>
                             <span>Total</span>
                             <span>₹ {cartTotal.toLocaleString()}</span>
                         </div>
@@ -112,6 +117,22 @@ const CartDrawer = () => {
             </div>
             <style>{`
                 @keyframes slideInRight { from { transform: translateX(100%); } to { transform: translateX(0); } }
+                @keyframes slideInUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+                
+                @media (max-width: 480px) {
+                    .cart-drawer {
+                        max-width: calc(100% - 32px) !important;
+                        border-radius: 24px !important;
+                        top: 16px !important;
+                        bottom: 16px !important;
+                        right: 16px !important;
+                        height: auto !important;
+                        animation: slideInUp 0.3s ease-out !important;
+                    }
+                    .cart-drawer-header {
+                        border-radius: 24px 24px 0 0 !important;
+                    }
+                }
             `}</style>
         </>
     );

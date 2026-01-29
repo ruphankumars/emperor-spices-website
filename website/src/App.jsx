@@ -20,25 +20,25 @@ import CartDrawer from './components/CartDrawer';
 
 
 // Sections
-import HeroSection from './sections/HeroSection';
-import CertificationsStrip from './sections/CertificationsStrip';
-import LegacySection from './sections/LegacySection';
-import DifferenceSection from './sections/DifferenceSection';
-import GradesSection from './sections/GradesSection';
-import ProductsSection from './sections/ProductsSection';
-import PackagingSection from './sections/PackagingSection';
-import NationwideSection from './sections/NationwideSection';
-import IndustriesSection from './sections/IndustriesSection';
-import IndianPresenceSection from './sections/IndianPresenceSection';
-import GlobalReachSection from './sections/GlobalReachSection';
-import QualitySection from './sections/QualitySection';
-import ChefRecipesSection from './sections/ChefRecipesSection';
-import RecipesSection from './sections/RecipesSection';
-import HealthSection from './sections/HealthSection';
-import BlogSection from './sections/BlogSection';
-import TestimonialsSection from './sections/TestimonialsSection';
-import GetInTouchSection from './sections/GetInTouchSection';
-import FAQSection from './sections/FAQSection';
+import HeroSection from './sections/Home/HeroSection';
+import CertificationsStrip from './sections/About/CertificationsStrip';
+import LegacySection from './sections/About/LegacySection';
+import DifferenceSection from './sections/Home/DifferenceSection';
+import GradesSection from './sections/Products/GradesSection';
+import ProductsSection from './sections/Products/ProductsSection';
+import PackagingSection from './sections/Products/PackagingSection';
+import NationwideSection from './sections/Global/NationwideSection';
+import IndustriesSection from './sections/Global/IndustriesSection';
+import IndianPresenceSection from './sections/Global/IndianPresenceSection';
+import GlobalReachSection from './sections/Global/GlobalReachSection';
+import QualitySection from './sections/About/QualitySection';
+import ChefRecipesSection from './sections/Resources/ChefRecipesSection';
+import RecipesSection from './sections/Resources/RecipesSection';
+import HealthSection from './sections/Resources/HealthSection';
+import BlogSection from './sections/Resources/BlogSection';
+import TestimonialsSection from './sections/Home/TestimonialsSection';
+import GetInTouchSection from './sections/Contact/GetInTouchSection';
+import FAQSection from './sections/Resources/FAQSection';
 
 // Styles
 import './index.css';
