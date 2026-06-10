@@ -343,7 +343,7 @@ const GlobalReachSection = () => {
                         gap: 1rem !important;
                     }
                     .global-globe-wrapper {
-                        height: 200px !important;
+                        height: 350px !important;
                         order: -1;
                         margin-bottom: 0;
                     }

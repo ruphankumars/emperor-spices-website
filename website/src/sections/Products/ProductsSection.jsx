@@ -421,7 +421,6 @@ const ProductsSection = () => {
             >
                 <div className="products-modal-grid" style={{
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
                     gap: '1.5rem',
                     padding: '10px'
                 }}>
@@ -430,9 +429,12 @@ const ProductsSection = () => {
                     ))}
                 </div>
                 <style>{`
+                    .products-modal-grid {
+                        grid-template-columns: repeat(3, 1fr);
+                    }
                     @media (max-width: 768px) {
                         .products-modal-grid {
-                            grid-template-columns: repeat(3, 1fr) !important;
+                            grid-template-columns: repeat(2, 1fr) !important;
                             gap: 0.5rem !important;
                             padding: 5px !important;
                         }

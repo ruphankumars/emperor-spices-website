@@ -311,16 +311,21 @@ const IndustriesSection = () => {
                     <style>{`
                         @media (max-width: 768px) {
                             .industries-stats {
-                                gap: 1.5rem !important;
+                                gap: 0.75rem !important;
                                 margin-top: 1.5rem !important;
                                 padding-top: 1rem !important;
-                                flex-wrap: wrap;
+                                flex-wrap: nowrap !important;
+                                justify-content: space-around !important;
+                            }
+                            .industries-stats .stat-item {
+                                text-align: center;
                             }
                             .industries-stats .stat-value {
-                                font-size: 1.5rem !important;
+                                font-size: 1.25rem !important;
                             }
                             .industries-stats .stat-label {
-                                font-size: 0.65rem !important;
+                                font-size: 0.55rem !important;
+                                white-space: nowrap;
                             }
                         }
                     `}</style>

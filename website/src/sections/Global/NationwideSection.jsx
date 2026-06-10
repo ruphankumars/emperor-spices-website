@@ -196,25 +196,25 @@ const NationwideSection = () => {
                 title="Get in Touch"
                 size="medium"
             >
-                <div style={{ display: 'grid', gap: '2rem' }}>
-                    <p style={{ color: 'var(--color-stone-600)', lineHeight: '1.7' }}>
+                <div className="contact-popup-content" style={{ display: 'grid', gap: '1.5rem' }}>
+                    <p style={{ color: 'var(--color-stone-600)', lineHeight: '1.7', margin: 0 }}>
                         Interested in partnering with Emperor Spices? Fill out the form below and our team will get back to you within 24 hours.
                     </p>
 
                     {/* Contact Details */}
-                    <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                            <Phone size={18} style={{ color: 'var(--color-forest)' }} />
-                            <span>+91 97900 05649</span>
+                    <div className="contact-popup-details" style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <Phone size={16} style={{ color: 'var(--color-forest)', flexShrink: 0 }} />
+                            <span style={{ fontSize: '0.9rem' }}>+91 97900 05649</span>
                         </div>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                            <Mail size={18} style={{ color: 'var(--color-forest)' }} />
-                            <span>info@emperorspices.in</span>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <Mail size={16} style={{ color: 'var(--color-forest)', flexShrink: 0 }} />
+                            <span style={{ fontSize: '0.9rem', wordBreak: 'break-all' }}>info@emperorspices.in</span>
                         </div>
                     </div>
 
                     {/* Form */}
-                    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '0.875rem' }}>
                         <input
                             type="text"
                             name="fullName"
@@ -226,10 +226,12 @@ const NationwideSection = () => {
                                 padding: '0.875rem 1rem',
                                 borderRadius: '8px',
                                 border: '1px solid var(--color-stone-300)',
-                                fontSize: '1rem'
+                                fontSize: '1rem',
+                                width: '100%',
+                                boxSizing: 'border-box'
                             }}
                         />
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                        <div className="contact-popup-form-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.875rem' }}>
                             <input
                                 type="email"
                                 name="email"
@@ -241,7 +243,9 @@ const NationwideSection = () => {
                                     padding: '0.875rem 1rem',
                                     borderRadius: '8px',
                                     border: '1px solid var(--color-stone-300)',
-                                    fontSize: '1rem'
+                                    fontSize: '1rem',
+                                    width: '100%',
+                                    boxSizing: 'border-box'
                                 }}
                             />
                             <input
@@ -254,7 +258,9 @@ const NationwideSection = () => {
                                     padding: '0.875rem 1rem',
                                     borderRadius: '8px',
                                     border: '1px solid var(--color-stone-300)',
-                                    fontSize: '1rem'
+                                    fontSize: '1rem',
+                                    width: '100%',
+                                    boxSizing: 'border-box'
                                 }}
                             />
                         </div>
@@ -263,14 +269,16 @@ const NationwideSection = () => {
                             placeholder="Tell us about your requirements..."
                             value={formData.message}
                             onChange={handleChange}
-                            rows={4}
+                            rows={3}
                             style={{
                                 padding: '0.875rem 1rem',
                                 borderRadius: '8px',
                                 border: '1px solid var(--color-stone-300)',
                                 fontSize: '1rem',
                                 resize: 'vertical',
-                                fontFamily: 'inherit'
+                                fontFamily: 'inherit',
+                                width: '100%',
+                                boxSizing: 'border-box'
                             }}
                         />
                         <button
@@ -279,7 +287,7 @@ const NationwideSection = () => {
                             style={{
                                 background: submitted ? 'var(--color-success, #22c55e)' : 'var(--color-forest)',
                                 color: 'white',
-                                padding: '1rem 2rem',
+                                padding: '0.875rem 1.5rem',
                                 borderRadius: '8px',
                                 border: 'none',
                                 fontSize: '1rem',
@@ -288,13 +296,28 @@ const NationwideSection = () => {
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
-                                gap: '0.5rem'
+                                gap: '0.5rem',
+                                width: '100%'
                             }}
                         >
                             {submitted ? '✓ Message Sent!' : isSubmitting ? 'Sending...' : <><Send size={18} /> Submit</>}
                         </button>
                     </form>
                 </div>
+                <style>{`
+                    @media (max-width: 480px) {
+                        .contact-popup-content p {
+                            font-size: 0.875rem !important;
+                        }
+                        .contact-popup-details {
+                            flex-direction: column !important;
+                            gap: 0.75rem !important;
+                        }
+                        .contact-popup-form-row {
+                            grid-template-columns: 1fr !important;
+                        }
+                    }
+                `}</style>
             </Modal>
         </>
     );

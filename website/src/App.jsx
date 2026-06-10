@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 // Layouts
 import Header from './layouts/Header';
@@ -17,6 +17,13 @@ import TimelineNav from './components/TimelineNav';
 import ContactModal from './components/ContactModal';
 import CustomCursor from './components/CustomCursor';
 import CartDrawer from './components/CartDrawer';
+import Seo from './components/Seo';
+
+// Pages
+import KnowledgeArticlePage from './pages/KnowledgeArticlePage';
+
+// SEO
+import { ROUTE_META, organizationLd, websiteLd, productsLd, faqLd } from './seo/seoConfig';
 
 
 // Sections
@@ -42,6 +49,24 @@ import FAQSection from './sections/Resources/FAQSection';
 
 // Styles
 import './index.css';
+
+// Route-aware SEO: unique title/description/canonical per path,
+// full structured data (Organization, WebSite, Products, FAQ) on every landing route.
+const RouteSeo = () => {
+  const location = useLocation();
+  const pathname = location.pathname.replace(/\/+$/, '') || '/';
+  const meta = ROUTE_META[pathname];
+  if (!meta) return null; // article pages manage their own SEO
+  const isHome = pathname === '/';
+  return (
+    <Seo
+      title={meta.title}
+      description={meta.description}
+      path={pathname}
+      jsonLd={isHome ? [organizationLd(), websiteLd(), faqLd(), ...productsLd()] : []}
+    />
+  );
+};
 
 // Landing Page Component
 const LandingPage = () => {
@@ -76,12 +101,14 @@ const AppContent = () => {
     <>
       <Header />
       <TimelineNav />
+      <RouteSeo />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<LandingPage />} />
         <Route path="/products" element={<LandingPage />} />
         <Route path="/export" element={<LandingPage />} />
         <Route path="/knowledge" element={<LandingPage />} />
+        <Route path="/knowledge/:slug" element={<KnowledgeArticlePage />} />
         <Route path="/contact" element={<LandingPage />} />
       </Routes>
       <Footer />
@@ -93,7 +120,11 @@ const AppContent = () => {
 
 // Main App
 function App() {
-  const [showPreloader, setShowPreloader] = useState(true);
+  // Skip the video preloader for headless browsers (prerenderer, crawlers)
+  // so the full content is immediately visible in static snapshots.
+  const [showPreloader, setShowPreloader] = useState(
+    () => !(typeof navigator !== 'undefined' && navigator.webdriver)
+  );
   const [contentReady, setContentReady] = useState(false);
 
   // Mark content as ready after initial render

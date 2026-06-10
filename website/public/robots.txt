@@ -1,0 +1,29 @@
+# Emperor Spices — emperorspices.com
+# All search engines and AI assistants are welcome to crawl and cite this site.
+
+User-agent: *
+Allow: /
+
+# AI search & answer engines (explicitly allowed for citation visibility)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://emperorspices.com/sitemap.xml

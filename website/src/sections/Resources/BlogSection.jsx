@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 import { FadeInUp, StaggerChildren } from '../../components/ScrollAnimations';
 import { blogDatabase, getFeaturedBlogs, getRelatedBlogs, BLOG_CATEGORIES } from '../../data/blogData';
 import { useAuth } from '../../contexts/AuthContext';
@@ -97,18 +98,20 @@ const toggleBlogLike = (blogId) => {
 const formatDate = (dateStr) => new Date(dateStr).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
 
 // ===== BLOG CARD =====
-const BlogCard = ({ blog, onClick, index = 0, compact = false }) => {
+// Renders a real <a> link to /knowledge/<slug> so every post is crawlable and shareable.
+const BlogCard = ({ blog, index = 0, compact = false }) => {
     const [hovered, setHovered] = useState(false);
     const [liked, setLiked] = useState(getLikedBlogs().includes(blog.id));
 
-    const handleLike = (e) => { e.stopPropagation(); toggleBlogLike(blog.id); setLiked(!liked); };
+    const handleLike = (e) => { e.preventDefault(); e.stopPropagation(); toggleBlogLike(blog.id); setLiked(!liked); };
 
     return (
-        <div
-            onClick={() => onClick(blog)}
+        <RouterLink
+            to={`/knowledge/${blog.slug}`}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
             style={{
+                display: 'block', textDecoration: 'none', color: 'inherit',
                 position: 'relative', background: '#fff', borderRadius: compact ? '16px' : '20px',
                 overflow: 'hidden', cursor: 'pointer', transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
                 transform: hovered ? 'translateY(-8px)' : 'translateY(0)',
@@ -163,14 +166,14 @@ const BlogCard = ({ blog, onClick, index = 0, compact = false }) => {
                     </p>
                 )}
             </div>
-        </div>
+        </RouterLink>
     );
 };
 
 // ===== SOCIAL SHARE =====
 const SocialShare = ({ blog }) => {
     const [copied, setCopied] = useState(false);
-    const url = `${window.location.origin}/blog/${blog.slug}`;
+    const url = `${window.location.origin}/knowledge/${blog.slug}`;
     const text = `Check out: ${blog.title}`;
     const links = [
         { name: 'Facebook', icon: <Icons.Facebook />, color: '#1877f2', href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}` },
