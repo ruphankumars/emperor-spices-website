@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, MessageCircle, Building2, Award, Globe, Users, Info, X } from 'lucide-react';
 import { useContact } from '../contexts/ContactContext';
 import Modal from '../components/Modal';
@@ -181,6 +182,19 @@ const Footer = () => {
             <li><a href="#products">Cardamom Seeds</a></li>
             <li><a href="#products">Cardamom Powder</a></li>
             <li><a href="#products">Private Label</a></li>
+          </ul>
+        </div>
+
+        {/* Export Resources Column — site-wide internal links to SEO landing pages */}
+        <div className="footer-column">
+          <h4>Export Resources</h4>
+          <ul className="footer-links">
+            <li><Link to="/export/green-cardamom-exporters-india">Cardamom Exporters India</Link></li>
+            <li><Link to="/export/bulk-cardamom-suppliers">Bulk Cardamom Suppliers</Link></li>
+            <li><Link to="/export/cardamom-export-middle-east">Middle East Export</Link></li>
+            <li><Link to="/export/cardamom-grades-ageb-agb-ags">AGEB, AGB &amp; AGS Grades</Link></li>
+            <li><Link to="/export/cardamom-price-bulk-export">Bulk Cardamom Pricing</Link></li>
+            <li><Link to="/knowledge">Knowledge Hub</Link></li>
           </ul>
         </div>
 

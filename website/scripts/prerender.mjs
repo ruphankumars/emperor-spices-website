@@ -19,9 +19,13 @@ const PORT = 4173;
 const blogData = readFileSync(join(__dirname, '..', 'src', 'data', 'blogData.js'), 'utf-8');
 const slugs = [...blogData.matchAll(/slug:\s*'([^']+)'/g)].map((m) => m[1]);
 
+const exportData = readFileSync(join(__dirname, '..', 'src', 'data', 'exportPagesData.js'), 'utf-8');
+const exportSlugs = [...exportData.matchAll(/slug:\s*'([^']+)'/g)].map((m) => m[1]);
+
 const STATIC_ROUTES = ['/', '/about', '/products', '/export', '/knowledge', '/contact'];
 const BLOG_ROUTES = slugs.map((s) => `/knowledge/${s}`);
-const ALL_ROUTES = [...STATIC_ROUTES, ...BLOG_ROUTES];
+const EXPORT_ROUTES = exportSlugs.map((s) => `/export/${s}`);
+const ALL_ROUTES = [...STATIC_ROUTES, ...EXPORT_ROUTES, ...BLOG_ROUTES];
 
 // ---- Tiny static file server with SPA fallback ----
 const MIME = {

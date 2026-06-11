@@ -21,6 +21,7 @@ import Seo from './components/Seo';
 
 // Pages
 import KnowledgeArticlePage from './pages/KnowledgeArticlePage';
+import ExportLandingPage from './pages/ExportLandingPage';
 
 // SEO
 import { ROUTE_META, organizationLd, websiteLd, productsLd, faqLd } from './seo/seoConfig';
@@ -107,6 +108,7 @@ const AppContent = () => {
         <Route path="/about" element={<LandingPage />} />
         <Route path="/products" element={<LandingPage />} />
         <Route path="/export" element={<LandingPage />} />
+        <Route path="/export/:slug" element={<ExportLandingPage />} />
         <Route path="/knowledge" element={<LandingPage />} />
         <Route path="/knowledge/:slug" element={<KnowledgeArticlePage />} />
         <Route path="/contact" element={<LandingPage />} />
