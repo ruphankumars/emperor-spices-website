@@ -46,7 +46,7 @@ export const ROUTE_META = {
     '/export': {
         title: 'Bulk Cardamom Export & Wholesale Supply | 40+ Countries Served',
         description:
-            'Wholesale green cardamom export from India to the Middle East, Europe, USA and Asia. 500kg+ bulk orders, LC/CAD payment terms, jute, PP and vacuum packaging options.',
+            'Direct green cardamom exporter, wholesaler and bulk supplier serving importers and distributors in 40+ countries. 500kg+ lots, LC/CAD terms, FOB or CIF quotes.',
     },
     '/knowledge': {
         title: 'Cardamom Knowledge Hub: Buying Guides, Recipes & Wellness',
@@ -73,6 +73,15 @@ export const organizationLd = () => ({
     image: SITE.defaultImage,
     description:
         'Premium Indian green cardamom exporter based in Bodinayakanur, Tamil Nadu. AGMARK certified grades AGEB, AGB and AGS exported to 40+ countries.',
+    knowsAbout: [
+        'Green Cardamom Export',
+        'Bulk Cardamom Supply',
+        'Cardamom Wholesale',
+        'AGEB AGB AGS Cardamom Grades',
+        'Spice Export India',
+        'Cardamom Seeds and Powder',
+        'Private Label Cardamom Packing',
+    ],
     telephone: SITE.phone,
     address: {
         '@type': 'PostalAddress',

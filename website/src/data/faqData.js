@@ -26,6 +26,22 @@ export const faqs = [
         question: 'How do you ensure quality during shipping?',
         answer: 'Our AromaSeal packaging uses triple-layer protection with moisture barrier, UV protection, and aroma-seal technology. We also provide temperature-controlled shipping for sensitive markets.',
     },
+    {
+        question: 'What HS code applies to cardamom for customs classification?',
+        answer: 'Green cardamom is classified under HS code 0908.31 when whole (neither crushed nor ground) and 0908.32 when crushed or ground. We state the correct code on every commercial invoice and Certificate of Analysis to ease your customs clearance.',
+    },
+    {
+        question: 'Do you quote FOB or CIF?',
+        answer: 'Both. We quote on either Incoterm from major Indian ports including Tuticorin, Chennai and Cochin, so the choice is yours. Tell us your destination port and we will price FOB at origin or CIF delivered to suit your logistics arrangements.',
+    },
+    {
+        question: 'Do you supply other spices or only cardamom?',
+        answer: 'Cardamom is our specialty. As a Spices Board of India registered spice exporter, we focus exclusively on premium green cardamom rather than spreading across many spices, which lets us guarantee consistent grades, oil content and freshness on every shipment.',
+    },
+    {
+        question: 'Are you a manufacturer, wholesaler or exporter?',
+        answer: 'We are a direct exporter, wholesaler and bulk supplier sourcing green cardamom straight from Bodinayakanur growers. We serve importers, distributors and retailers worldwide, shipping in bulk lots or under private label without intermediary traders inflating the price.',
+    },
 ];
 
 export default faqs;

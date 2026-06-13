@@ -58,7 +58,7 @@ export const exportPages = [
             'Wholesale green cardamom in 500kg+ bulk lots from Bodinayakanur, India. AGEB, AGB, AGS pods, seeds and powder with COA, jute or vacuum packing, LC/CAD terms.',
         h1: 'Bulk Cardamom Suppliers for Wholesale Buyers',
         intro:
-            'Emperor Spices supplies green cardamom in bulk from Bodinayakanur, Tamil Nadu, with a 500kg minimum order for wholesale lots and 250kg for private label. Importers, distributors, spice grinders and food manufacturers can buy AGEB, AGB and AGS pods, decorticated seeds or powder, packed in jute, PP woven or vacuum formats, with a Certificate of Analysis on every consignment.',
+            'Emperor Spices is a direct spice exporter and wholesaler supplying green cardamom in bulk from Bodinayakanur, Tamil Nadu, with a 500kg minimum order for wholesale lots and 250kg for private label. Importers, distributors, traders, spice grinders and food manufacturers can buy AGEB, AGB and AGS pods, decorticated seeds or powder, packed in jute, PP woven or vacuum formats, with a Certificate of Analysis on every consignment.',
         sections: [
             {
                 heading: 'What to Expect from a Wholesale Cardamom Supplier',
