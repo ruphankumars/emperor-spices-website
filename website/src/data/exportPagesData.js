@@ -247,4 +247,53 @@ export const exportPages = [
             text: 'Send your grade, volume and destination and receive a firm offer built on today\'s Bodinayakanur market levels — sample and COA included before you commit. Call +91 97900 05649.',
         },
     },
+    {
+        slug: 'cardamom-exporters-kerala',
+        metaTitle: 'Cardamom Exporters in Kerala | Idukki Belt Supplier',
+        metaDescription:
+            'Kerala cardamom exporter sourcing from the Idukki & Vandanmedu Cardamom Hills. Emperor Spices supplies Alleppey Green AGEB, AGB & AGS grades with COA, 500kg MOQ.',
+        h1: 'Cardamom Exporters in Kerala: Idukki & the Cardamom Hills',
+        intro:
+            'For buyers searching for cardamom exporters in Kerala, Emperor Spices supplies Alleppey Green Cardamom from the same Idukki–Vandanmedu Cardamom Hills belt, operating just across the border at Bodinayakanur on the Tamil Nadu–Kerala frontier. As a supplier, wholesaler and exporter of AGEB, AGB and AGS grades, we ship high-altitude Western Ghats produce to importers worldwide, backed by FSSAI, ISO 22000:2018, HACCP, APEDA and Spices Board of India registrations.',
+        sections: [
+            {
+                heading: 'Kerala, Idukki and the Home of Alleppey Green Cardamom',
+                html: '<p>Kerala is the historic origin of Indian green cardamom. The high-altitude estates of Idukki district — around Vandanmedu, Nedumkandam and the mist-covered slopes that gave the Cardamom Hills their name — have cultivated <em>Elettaria cardamomum</em> for generations. The deep-green, high-oil produce of this belt earned a worldwide reputation under the trade name <strong>Alleppey Green Cardamom</strong>, after the port of Alleppey (Alappuzha) through which it was historically exported.</p><p>What makes this belt distinctive is geography: cool mountain temperatures, reliable monsoon rainfall and mineral-rich Western Ghats soils combine to produce capsules with the bold size and high essential-oil content that premium markets pay for. The Geographical Indication context around Alleppey cardamom recognises this origin character. When a buyer asks for a Kerala cardamom supplier, what they are really specifying is this high-altitude Cardamom Hills produce — and that is exactly the material Emperor Spices grades and exports.</p>',
+            },
+            {
+                heading: 'How a Bodinayakanur Trader Connects to Kerala Estates',
+                html: '<p>To be transparent: Emperor Spices operates from Bodinayakanur in Tamil Nadu\'s Theni district, not from a Kerala office. But geography matters more than a state line here. Bodinayakanur sits directly on the Tamil Nadu–Kerala border at the foot of the same Western Ghats range, and the Cardamom Hills belt is a single contiguous growing zone that straddles both states. Cured capsules from Idukki estates and the surrounding hills flow into Bodinayakanur, which functions as one of India\'s principal cardamom trading and auction centres.</p><p>That position lets us act as a distributor and trader of the same produce a Kerala-based supplier would offer, with a practical advantage:</p><ul><li><strong>Same belt, same grades</strong> — we source from the contiguous Idukki–Vandanmedu Cardamom Hills zone, so the high-altitude origin character is preserved.</li><li><strong>Fresh arrivals</strong> — capsules reach our grading floor within days of curing, protecting aroma and oil content.</li><li><strong>Direct selection</strong> — as a wholesaler buying at source, we evaluate lots in person rather than through distant intermediaries.</li></ul><p>For the importer, the result is Kerala-belt cardamom handled by an exporter with documented processes — without the markup of extra middlemen.</p>',
+            },
+            {
+                heading: 'Grades We Export from the Kerala Cardamom Belt',
+                html: '<p>We supply the three principal Alleppey Green grades plus value-added forms, each graded by capsule size and shipped with a Certificate of Analysis.</p><table><thead><tr><th>Grade / Form</th><th>Capsule Size</th><th>Essential Oil</th><th>Typical Use</th></tr></thead><tbody><tr><td>AGEB (Extra Bold)</td><td>8mm and above</td><td>7&ndash;8%</td><td>Premium retail, Arabic coffee, gifting</td></tr><tr><td>AGB (Bold)</td><td>7&ndash;8mm</td><td>6&ndash;7%</td><td>Retail packs, foodservice, blends</td></tr><tr><td>AGS (Small)</td><td>6&ndash;7mm</td><td>5&ndash;6%</td><td>Grinding, extraction, industrial use</td></tr><tr><td>Cardamom Seeds</td><td>Decorticated</td><td>&mdash;</td><td>Bakery, flavour houses</td></tr><tr><td>Cardamom Powder</td><td>Ground</td><td>&mdash;</td><td>Food processing, spice blends</td></tr></tbody></table><p>AG stands for Alleppey Green, the classic deep-green South Indian type native to this Kerala belt. Minimum order quantity is 500kg for bulk and 250kg for private label, with pre-shipment samples of 100g&ndash;500g available with a COA so your quality team can verify capsule size, colour and aroma before the main lot ships.</p>',
+            },
+            {
+                heading: 'Certifications and How to Order',
+                html: '<p>International buyers need cardamom that clears customs and satisfies food-safety auditors. As an exporter of Kerala-belt produce, Emperor Spices maintains:</p><ul><li><strong>FSSAI</strong> licence for food business operation in India</li><li><strong>ISO 22000:2018</strong> certified food safety management system</li><li><strong>HACCP</strong> hazard-control protocols across receiving, grading and packing</li><li><strong>APEDA</strong> registration for agricultural export</li><li><strong>Spices Board of India</strong> registration as a spice exporter</li><li><strong>IEC Code</strong> for international trade</li></ul><p>Packaging is matched to your supply chain — jute bags in 25kg and 50kg, PP woven bags, vacuum pouches from 100g to 1kg, and export cartons — with private-label printing available on pouch formats. Payment is by Letter of Credit, Cash Against Documents or advance, agreed per order. To order, send your target grade, volume and destination port to our export desk; we reply with a complete offer including packaging and Incoterms, and can dispatch a sample before you commit.</p>',
+            },
+        ],
+        faqs: [
+            {
+                question: 'Are you a cardamom exporter based in Kerala?',
+                answer: 'We operate from Bodinayakanur in Tamil Nadu, on the Kerala border, not from a Kerala office. However, we source from the same contiguous Idukki–Vandanmedu Cardamom Hills belt that straddles both states, so we supply and export the identical high-altitude Alleppey Green Cardamom a Kerala supplier would offer.',
+            },
+            {
+                question: 'Is your cardamom the same as Idukki or Vandanmedu cardamom?',
+                answer: 'Yes. The Cardamom Hills are a single growing zone spanning the Tamil Nadu–Kerala border. Capsules from Idukki, Vandanmedu and the surrounding estates flow into the Bodinayakanur trading centre, where we grade and pack them. The deep-green, high-oil origin character is the same Alleppey Green produce.',
+            },
+            {
+                question: 'What is Alleppey Green Cardamom?',
+                answer: 'Alleppey Green Cardamom is the classic deep-green, high-essential-oil South Indian cardamom from the Western Ghats Cardamom Hills, named after the Kerala port of Alleppey through which it was historically exported. The grade prefix AG denotes Alleppey Green, followed by the size class — EB, B or S.',
+            },
+            {
+                question: 'What is your minimum order and can I get a sample?',
+                answer: 'Our MOQ is 500kg for bulk export and 250kg for private label. Before committing, you can request a 100g to 500g sample with a Certificate of Analysis, so your quality team can verify the grade, capsule size, colour and aroma of the Kerala-belt produce against your specification.',
+            },
+        ],
+        cta: {
+            heading: 'Source Kerala-Belt Cardamom from Bodinayakanur',
+            text: 'Get Idukki–Vandanmedu Cardamom Hills produce graded and exported by a documented supplier. Send your grade, volume and destination port for a complete offer. Call +91 97900 05649 or contact our export desk.',
+        },
+    },
 ];

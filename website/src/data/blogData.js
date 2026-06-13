@@ -379,6 +379,130 @@ export const blogDatabase = [
         `
     },
 
+    {
+        id: 'alleppey-vs-guatemalan-cardamom',
+        slug: 'alleppey-vs-guatemalan-cardamom',
+        title: 'Alleppey vs Guatemalan Cardamom: A Complete Comparison',
+        excerpt: 'Alleppey vs Guatemalan cardamom compared: Indian green cardamom offers higher oil content and intense aroma, while Guatemala leads on size and volume.',
+        category: BLOG_CATEGORIES.ARTICLES,
+        tags: [BLOG_TAGS.QUALITY, BLOG_TAGS.EXPORT],
+        image: '/images/cardamom_content/cardamom_plantation.png',
+        author: 'Emperor Spices Quality Team',
+        date: '2026-06-13',
+        readTime: '8 min read',
+        featured: false,
+        content: `
+            <p>The short answer: Alleppey (Indian) green cardamom delivers higher essential-oil content and a more intense, complex aroma, while Guatemalan cardamom is larger, paler and milder, produced in far greater volume at a lower price tier. Which one is "better" depends entirely on whether you are buying for aroma and prestige or for cost and bulk supply.</p>
+
+            <p>These two origins dominate the world's green cardamom trade, and confusing one for the other is a costly mistake for any buyer. This guide compares them side by side so you can match origin to application with confidence.</p>
+
+            <h3>Quick Comparison Table</h3>
+            <p>Here is how the two origins stack up across the parameters that matter most to a buyer.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Alleppey (Indian)</th>
+                        <th>Guatemalan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Origin</td>
+                        <td>Western Ghats Cardamom Hills, South India (Idukki, Vandanmedu, Bodinayakanur belt)</td>
+                        <td>Alta Verapaz highlands, Guatemala</td>
+                    </tr>
+                    <tr>
+                        <td>Capsule colour</td>
+                        <td>Deep, vivid green</td>
+                        <td>Paler green to greenish-white</td>
+                    </tr>
+                    <tr>
+                        <td>Capsule size</td>
+                        <td>Bold; AGEB 8mm+, AGB 7&ndash;8mm</td>
+                        <td>Generally larger, more uniform</td>
+                    </tr>
+                    <tr>
+                        <td>Essential oil content</td>
+                        <td>High &mdash; up to 7&ndash;8% in AGEB</td>
+                        <td>Lower &mdash; typically milder</td>
+                    </tr>
+                    <tr>
+                        <td>Aroma profile</td>
+                        <td>Intense, sweet-camphor, complex with floral and eucalyptus notes</td>
+                        <td>Lighter, cleaner, more subtle</td>
+                    </tr>
+                    <tr>
+                        <td>Price tier</td>
+                        <td>Premium</td>
+                        <td>Value / high-volume</td>
+                    </tr>
+                    <tr>
+                        <td>Best use</td>
+                        <td>Premium retail, Arabic coffee (qahwa), gifting, aroma-led blends</td>
+                        <td>Large-scale food processing, extraction, cost-sensitive supply</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Why Alleppey Cardamom Aroma Is More Intense</h3>
+            <p>Alleppey cardamom wins on aroma because of its higher essential-oil concentration. The deep-green capsules from the Western Ghats Cardamom Hills carry essential oil of up to 7&ndash;8% in bold AGEB grades — substantially higher than the global average. That oil is where the flavour lives: the sweet-camphor sharpness, the floral lift and the lingering eucalyptus note that define classic Indian green cardamom.</p>
+            <p>The reason is environmental. The high-altitude estates around Idukki, Vandanmedu and the Bodinayakanur belt sit in cool, monsoon-fed mountain conditions on mineral-rich soils. Slower maturation at altitude concentrates the aromatic compounds in the seed. This is the same origin character recognised in the historic "Alleppey Green" trade name, after the Kerala port through which the spice was once shipped.</p>
+
+            <h3>Why Guatemala Leads on Size and Volume</h3>
+            <p>Guatemala leads the world in green cardamom volume, and its produce is prized for large, uniform, pale-green capsules rather than for aromatic intensity. Cardamom was introduced to Guatemala's Alta Verapaz highlands in the early twentieth century, and the country has since become the largest exporter by tonnage, supplying enormous quantities into Middle Eastern and global markets.</p>
+            <p>The trade-off is in the cup. Guatemalan capsules tend to be milder and cleaner, with lower oil content than premium Indian grades. For a buyer running a high-throughput grinding line or an extraction process where raw volume and cost per kilo dominate the economics, that mildness is acceptable — even desirable. For a roaster selling qahwa-grade cardamom on appearance and aroma, it usually is not.</p>
+
+            <h3>Which Should You Buy?</h3>
+            <p>Choose Alleppey Indian cardamom when aroma, colour and prestige drive your sale — premium retail jars, gifting packs, Gulf Arabic-coffee service and aroma-led spice blends all reward the higher oil content. Choose Guatemalan when you need very large, uniform capsules at a value price for cost-sensitive, high-volume applications.</p>
+            <p>Many serious buyers in fact carry both: Guatemalan for volume lines and Indian for premium tiers. The key is to specify origin on the contract and verify it on arrival, because the visual difference — deep green versus pale green — is the first thing your customer sees.</p>
+
+            <h3>Sourcing Alleppey Green Cardamom</h3>
+            <p>Emperor Spices grades and exports Alleppey Green Cardamom from Bodinayakanur, at the heart of the Western Ghats Cardamom Hills belt. We supply AGEB, AGB and AGS grades with a Certificate of Analysis confirming capsule size, colour and oil content for each lot, so buyers comparing origins can verify exactly what the Indian premium delivers before committing to a bulk export order.</p>
+        `
+    },
+    {
+        id: 'how-to-store-cardamom',
+        slug: 'how-to-store-cardamom',
+        title: 'How to Store Cardamom to Keep It Fresh and Aromatic',
+        excerpt: 'How to store cardamom for maximum freshness: keep whole pods in airtight containers away from light, heat and moisture, and learn why pods outlast powder.',
+        category: BLOG_CATEGORIES.ARTICLES,
+        tags: [BLOG_TAGS.TIPS, BLOG_TAGS.QUALITY],
+        image: '/images/cardamom_content/cardamom_sorting.png',
+        author: 'Emperor Spices Quality Team',
+        date: '2026-06-13',
+        readTime: '6 min read',
+        featured: false,
+        content: `
+            <p>To store cardamom properly, keep whole pods in an airtight container in a cool, dark, dry place — away from light, heat and moisture. Stored this way, whole green cardamom holds its aroma and oil content for around a year or more, while ground cardamom begins fading within weeks. The single most important rule is simple: buy and store pods, not powder, and grind only what you need.</p>
+
+            <h3>Why Cardamom Loses Its Aroma</h3>
+            <p>Cardamom does not really "go off" in the way perishable food does, but it does lose what makes it valuable. The flavour and fragrance come from volatile essential oils held inside the seeds. Four enemies drive those oils away: air (oxidation), light, heat and moisture. Every time cardamom is exposed to them, aroma escapes and never returns. A faded, weak pod is not unsafe — it is simply a shadow of fresh, high-oil cardamom.</p>
+
+            <h3>How to Store Cardamom Step by Step</h3>
+            <p>Follow these steps to preserve freshness for as long as possible:</p>
+            <ol>
+                <li><strong>Keep pods whole.</strong> The husk is nature's own packaging, sealing the aromatic seeds inside until you crack them.</li>
+                <li><strong>Use an airtight container.</strong> Glass jars with tight lids or sealed metal tins work best. Limiting air contact slows oxidation.</li>
+                <li><strong>Store in a cool, dark place.</strong> A pantry or cupboard away from the stove is ideal. Heat accelerates oil loss.</li>
+                <li><strong>Keep it away from light.</strong> Light degrades the volatile compounds, so opaque containers or a dark shelf are better than a clear jar on the counter.</li>
+                <li><strong>Block out moisture.</strong> Always use a dry spoon, and never store cardamom near steam or in a humid spot, as dampness invites clumping and mould.</li>
+                <li><strong>Grind on demand.</strong> Crush or grind pods only just before cooking to capture the oils at their peak.</li>
+            </ol>
+
+            <h3>Whole Pods vs Ground Cardamom: Shelf Life</h3>
+            <p>Whole pods keep far longer than powder for one reason: the intact husk protects the seeds from air and light. Whole green cardamom stored well stays vibrant for roughly a year or more, with usable aroma beyond that. Ground cardamom, by contrast, exposes a huge surface area to oxygen the moment it is milled, so it noticeably weakens within a few weeks to a couple of months. This is exactly why Emperor Spices grinds cardamom powder against confirmed orders rather than holding it in stock, and recommends vacuum packing for any powder shipment.</p>
+
+            <h3>Bulk Storage for Traders and Wholesalers</h3>
+            <p>For traders, distributors and food businesses holding cardamom in quantity, the same principles scale up. Store sealed jute or PP woven bags off the floor on pallets, in a cool, dry, well-ventilated warehouse away from direct sun and strong-smelling goods, since cardamom readily absorbs odours. For long sea routes or extended holding, vacuum pouches inside export cartons protect the essential-oil content best. Practising stock rotation — first in, first out — ensures older lots move before their aroma fades.</p>
+
+            <h3>Quick Answers on Cardamom Storage</h3>
+            <p><strong>Should cardamom be refrigerated?</strong> It is not necessary, and the refrigerator's humidity and condensation can do more harm than good. A cool, dry cupboard in an airtight container is better. Freezing whole pods long-term is an option, but let them return to room temperature in the sealed container before opening to avoid moisture.</p>
+            <p><strong>How do I know if cardamom is still good?</strong> Crack a pod and smell it. Fresh, high-oil cardamom releases a strong, sweet aroma immediately. If the scent is faint and the pod looks dull or brownish rather than deep green, the oils have largely gone.</p>
+            <p><strong>Can I revive old cardamom?</strong> Not fully — lost volatile oils cannot be restored. You can compensate by using more, but the cleaner solution is to start with fresh, high-quality green cardamom and store it correctly from day one.</p>
+        `
+    },
+
     // ===== RECIPES =====
     {
         id: 'cardamom-cheesecake-bars',
