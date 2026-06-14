@@ -503,6 +503,162 @@ export const blogDatabase = [
         `
     },
 
+    {
+        id: 'green-cardamom-vs-black-cardamom',
+        slug: 'green-cardamom-vs-black-cardamom',
+        title: 'Green Cardamom vs Black Cardamom: Key Differences',
+        excerpt: 'Green cardamom vs black cardamom compared: two different plants with different flavour, colour, size, price and culinary uses. See which goes where, and why.',
+        category: BLOG_CATEGORIES.ARTICLES,
+        tags: [BLOG_TAGS.QUALITY, BLOG_TAGS.TIPS],
+        image: '/images/cardamom_content/cardamom_grading.png',
+        author: 'Emperor Spices Quality Team',
+        date: '2026-06-14',
+        readTime: '7 min read',
+        featured: false,
+        content: `
+            <p>The short answer: green cardamom and black cardamom come from two different plants. Green cardamom (<em>Elettaria cardamomum</em>) is a small, sweet, aromatic pod used in coffee, tea, desserts and fine cooking, while black cardamom (<em>Amomum subulatum</em>) is a large, dark, smoky pod used mainly in savoury dishes. They are not interchangeable, and confusing one for the other will change the character of a dish completely.</p>
+
+            <p>Because both are sold simply as "cardamom" in many shops, buyers often assume they are grades of the same spice. They are not. Understanding the difference protects both your cooking and your purchasing decisions. Emperor Spices specialises exclusively in premium <strong>green</strong> cardamom; we cover black cardamom here for comparison only.</p>
+
+            <h3>Quick Comparison Table</h3>
+            <p>Here is how the two spices differ across the parameters that matter most.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Green Cardamom</th>
+                        <th>Black Cardamom</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Botanical source</td>
+                        <td><em>Elettaria cardamomum</em></td>
+                        <td><em>Amomum subulatum</em></td>
+                    </tr>
+                    <tr>
+                        <td>Colour</td>
+                        <td>Vivid green capsules</td>
+                        <td>Dark brown to black, dried over fire</td>
+                    </tr>
+                    <tr>
+                        <td>Size</td>
+                        <td>Small, 6&ndash;8mm+ pods</td>
+                        <td>Large, coarse pods up to several centimetres</td>
+                    </tr>
+                    <tr>
+                        <td>Flavour</td>
+                        <td>Sweet, floral, camphor-eucalyptus, aromatic</td>
+                        <td>Smoky, resinous, intensely savoury</td>
+                    </tr>
+                    <tr>
+                        <td>Culinary use</td>
+                        <td>Coffee, tea, desserts, biryani, gifting</td>
+                        <td>Slow-cooked curries, stews, savoury rice</td>
+                    </tr>
+                    <tr>
+                        <td>Price tier</td>
+                        <td>Premium &mdash; among the costliest spices</td>
+                        <td>Lower than green; more affordable per kg</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Botanical Source</h3>
+            <p>Green and black cardamom belong to different species within the ginger family. Green cardamom is the fruit of <em>Elettaria cardamomum</em>, native to the Western Ghats of South India and now grown commercially across that belt and in Guatemala. Black cardamom comes from <em>Amomum subulatum</em>, cultivated mainly in the eastern Himalayas, Nepal and parts of Northeast India. They are botanical cousins, not grades of one spice.</p>
+
+            <h3>Flavour and Aroma</h3>
+            <p>Green cardamom is prized for a sweet, floral, complex aroma with cooling camphor and eucalyptus notes that come from its essential oils. Black cardamom is the opposite: because the large pods are traditionally dried over open fire, they take on a bold, smoky, resinous character that is firmly savoury. Substituting one for the other does not work — sweet green cardamom in a smoky stew, or smoky black cardamom in a dessert, will both taste wrong.</p>
+
+            <h3>Colour and Size</h3>
+            <p>The visual difference is immediate. Green cardamom is small, with smooth, vivid-green capsules; in the premium bold grades, AGEB capsules measure 8mm and above. Black cardamom is much larger and coarser, dark brown to black, with a wrinkled, leathery husk that can reach several centimetres in length. If a pod is large and dark, it is black cardamom; if it is small and green, it is green cardamom.</p>
+
+            <h3>Culinary Use</h3>
+            <p>Green cardamom is the versatile, aromatic spice: it perfumes Gulf qahwa and masala chai, lifts kheer, payasam and Scandinavian baking, and adds fragrance to biryani and pilaf. Black cardamom belongs in long-simmered savoury cooking — dals, meat curries, garam masala blends and stocks — where its smoke develops depth over time. A few cooks use both together in a rich biryani, but they play entirely different roles.</p>
+
+            <h3>Price Tier and Sourcing</h3>
+            <p>Green cardamom sits among the world's most expensive spices, with bold, high-oil grades commanding the strongest prices because of intensive hand-harvesting and selective picking. Black cardamom is generally more affordable per kilogram. For buyers, the key is to specify exactly which spice you mean on any purchase order, because the word "cardamom" alone is ambiguous.</p>
+
+            <h3>What Emperor Spices Supplies</h3>
+            <p>Emperor Spices is a dedicated green cardamom exporter from Bodinayakanur, in the Western Ghats Cardamom Hills belt. We grade and ship Alleppey Green Cardamom — AGEB, AGB and AGS pods, decorticated seeds and ground powder — each lot accompanied by a Certificate of Analysis confirming capsule size, colour and oil content. We do not supply black cardamom; our focus is on delivering the freshest, highest-oil green cardamom to importers worldwide.</p>
+        `
+    },
+    {
+        id: 'why-is-cardamom-so-expensive',
+        slug: 'why-is-cardamom-so-expensive',
+        title: 'Why Is Cardamom So Expensive? The Real Reasons',
+        excerpt: 'Why is cardamom so expensive? Hand-harvesting, repeated selective picking, careful curing and weather sensitivity make it one of the costliest spices on earth.',
+        category: BLOG_CATEGORIES.ARTICLES,
+        tags: [BLOG_TAGS.QUALITY, BLOG_TAGS.EXPORT],
+        image: '/images/cardamom_content/cardamom_plantation.png',
+        author: 'Emperor Spices Quality Team',
+        date: '2026-06-14',
+        readTime: '7 min read',
+        featured: false,
+        content: `
+            <p>The short answer: cardamom is expensive because it is one of the most labour-intensive spices in the world to produce. Every pod is picked by hand, the same plant must be harvested many times over a season as pods ripen unevenly, and the delicate crop demands careful curing and a specific mountain climate. Combined with strict grading, these factors make green cardamom consistently rank among the three costliest spices on earth, after saffron and vanilla.</p>
+
+            <p>For buyers, understanding what drives the price is the best defence against false economy. A suspiciously cheap offer almost always reflects a corner cut somewhere in the chain below.</p>
+
+            <h3>The Real Reasons Behind the Price</h3>
+            <ol>
+                <li><strong>Every pod is hand-harvested.</strong> Cardamom capsules grow on low panicles at the base of the plant and cannot be machine-picked without damaging the crop. Skilled workers harvest each pod by hand, which makes labour the single largest cost in production.</li>
+                <li><strong>Pods ripen unevenly, forcing multiple pickings.</strong> Unlike crops harvested once, cardamom matures gradually. The same plantation must be picked over and over — often many separate rounds across a season — with workers selecting only the pods that have reached the right maturity each time. This repeated selective picking multiplies the labour required per kilogram.</li>
+                <li><strong>Selective picking protects quality.</strong> Picking too early gives small, low-oil pods; picking too late means split or faded capsules. Harvesting at exactly the right moment, pod by pod, is what preserves the deep-green colour and high essential-oil content premium markets pay for — and it cannot be rushed.</li>
+                <li><strong>Curing and drying require care.</strong> After harvest, capsules must be cured and dried to a stable moisture level without losing their green colour or volatile oils. Over-drying scorches aroma; under-drying invites mould in storage and transit. Controlled curing adds time, energy and skill to the process.</li>
+                <li><strong>The crop is weather and climate sensitive.</strong> Cardamom thrives only in a narrow band of cool, shaded, high-altitude conditions with reliable monsoon rainfall, such as the Western Ghats Cardamom Hills. Irregular rain, heat stress or drought can sharply reduce yields, and limited suitable growing land keeps supply tight.</li>
+                <li><strong>Rigorous grading separates the crop by value.</strong> Cured capsules are sorted by size into grades, because larger pods carry more seed mass and therefore more oil. Grading is extra handling, but it is essential — and it concentrates the highest costs into the boldest, highest-oil grades.</li>
+                <li><strong>Bold, high-oil grades cost the most.</strong> The premium tier exists because bold capsules are scarcer and more aromatic. AGEB (Extra Bold, 8mm+) carries 7&ndash;8% essential oil and commands the highest price; AGB (7&ndash;8mm) sits mid-range; AGS (6&ndash;7mm) is the most economical. You are paying for oil content and visual size, both of which rise with grade.</li>
+            </ol>
+
+            <h3>Why Premium Grades Are Worth It</h3>
+            <p>Higher-oil cardamom is more economical than it looks. Because flavour lives in the essential oil, a small quantity of bold AGEB does the work of a much larger quantity of weak, low-oil pods. For premium retail, Gulf qahwa service and gifting, where capsules are seen and smelled before purchase, the bold grades justify their price through appearance and aroma alike.</p>
+
+            <h3>How This Shapes Honest Pricing</h3>
+            <p>Because every cost above is real, Indian cardamom is priced through transparent Spices Board auctions that move daily. An offer far below the prevailing market usually hides a problem: undersized capsules slipped into a bold-grade contract, aged stock, or padded lots. The protection for a buyer is a pre-shipment sample with a Certificate of Analysis tying the delivered goods to the quoted specification.</p>
+
+            <h3>Sourcing Premium Cardamom</h3>
+            <p>Emperor Spices grades and exports Alleppey Green Cardamom from Bodinayakanur, at the heart of the Cardamom Hills belt. By buying close to harvest and grading at source, we ensure the price you pay reflects genuine quality — fresh, high-oil capsules verified by COA — rather than the hidden compromises that make a cheap quote expensive in the end.</p>
+        `
+    },
+    {
+        id: 'cardamom-for-arabic-coffee-qahwa',
+        slug: 'cardamom-for-arabic-coffee-qahwa',
+        title: 'Cardamom for Arabic Coffee (Qahwa): Choosing the Right Grade',
+        excerpt: 'Choosing cardamom for Arabic coffee (qahwa): why bold, high-oil green grades like AGEB and AGB give the best aroma, plus usage ratios and freshness tips.',
+        category: BLOG_CATEGORIES.ARTICLES,
+        tags: [BLOG_TAGS.BEVERAGES, BLOG_TAGS.CULTURE],
+        image: '/images/cardamom_content/cardamom_usage_arabic.png',
+        author: 'Emperor Spices Quality Team',
+        date: '2026-06-14',
+        readTime: '6 min read',
+        featured: false,
+        content: `
+            <p>The short answer: for Arabic coffee (qahwa), choose bold, high-oil green cardamom — AGEB (8mm+, 7&ndash;8% oil) or AGB (7&ndash;8mm, 6&ndash;7% oil). These grades deliver the large, vivid-green capsules and intense, sweet-camphor aroma that define a properly perfumed cup, which is exactly what Gulf buyers specify.</p>
+
+            <h3>Cardamom's Role in Gulf Qahwa Culture</h3>
+            <p>In the Gulf, qahwa is far more than a drink — it is the centrepiece of hospitality. The lightly roasted Arabic coffee served in homes, the majlis and hotels across the UAE, Saudi Arabia, Kuwait, Qatar, Oman and Bahrain is brewed with generous cardamom, and offering it to every guest is a deep-rooted custom. The aroma of cardamom rising from the dallah pot is, for many, the very signature of the cup.</p>
+
+            <h3>Why Bold, High-Oil Grades Are Preferred</h3>
+            <p>Qahwa makers judge cardamom before it ever reaches the pot, by eye and by nose. Capsules should be large, plump and vividly green, and they should release a strong aroma when cracked. This is why bold grades dominate Gulf demand: the flavour and fragrance live in the essential oil, and bold grades simply carry more of it. AGEB at 7&ndash;8% oil is the premium choice for fine qahwa and gifting, while AGB at 6&ndash;7% oil is a strong, well-priced option for hotels, cafes and everyday retail. Small, low-oil pods may brew, but they cannot deliver the bold appearance and lingering aroma the tradition expects.</p>
+
+            <h3>Usage and Ratio</h3>
+            <p>Qahwa is a lightly perfumed coffee, so cardamom should support the brew, not overwhelm it. A common starting point is roughly one part cardamom to ten parts coffee by volume, adjusted to taste and regional preference — some households brew it markedly stronger. Pods are usually cracked open just before brewing so the oils release into the pot; some makers add the cardamom toward the end of brewing to keep the aroma fresh and bright. Saffron, cloves or a touch of rosewater are frequent companions, but cardamom remains the defining note.</p>
+
+            <h3>Freshness Is Everything</h3>
+            <p>No grade can compensate for stale stock. Because the aroma comes from volatile oils that escape over time, qahwa-grade cardamom should be bought as whole pods, stored airtight in a cool, dark place, and cracked only when needed. Fresh, high-oil capsules release a powerful scent the moment they are cracked; dull, faded pods that smell faint have already lost much of their value. For this reason, serious Gulf buyers prioritise freshly graded, recent-season cardamom over long-stored inventory.</p>
+
+            <h3>Questions Gulf Buyers Often Ask</h3>
+            <p><strong>Which grade is best for qahwa?</strong> AGEB (8mm+, 7&ndash;8% oil) for premium service and gifting; AGB (7&ndash;8mm, 6&ndash;7% oil) for strong value in hotels, cafes and retail packs.</p>
+            <p><strong>Should I use whole pods or powder?</strong> Whole pods, cracked just before brewing. Pods hold their oils far longer than powder, which fades within weeks.</p>
+            <p><strong>How much cardamom per pot?</strong> Begin near a 1:10 cardamom-to-coffee ratio and adjust to local taste; many Gulf households prefer it stronger.</p>
+            <p><strong>How do I keep it fresh through a season?</strong> Order freshly graded stock, store sealed away from heat and light, and rotate older lots first. For long shipments, vacuum packing protects the oil content best.</p>
+
+            <h3>Sourcing Qahwa-Grade Cardamom</h3>
+            <p>Emperor Spices supplies bold Alleppey Green Cardamom from Bodinayakanur for Gulf qahwa programmes, with AGEB and AGB anchoring most consignments. Each lot ships with a Certificate of Analysis confirming capsule size, colour and oil content, and pre-shipment samples let your team verify the aroma before bulk packing. Call +91 97900 05649 to discuss your qahwa-grade requirement.</p>
+        `
+    },
+
     // ===== RECIPES =====
     {
         id: 'cardamom-cheesecake-bars',

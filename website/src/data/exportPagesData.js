@@ -296,4 +296,53 @@ export const exportPages = [
             text: 'Get Idukki–Vandanmedu Cardamom Hills produce graded and exported by a documented supplier. Send your grade, volume and destination port for a complete offer. Call +91 97900 05649 or contact our export desk.',
         },
     },
+    {
+        slug: 'best-green-cardamom-india',
+        metaTitle: 'Best Green Cardamom in India | Buyer Sourcing Guide',
+        metaDescription:
+            'How to identify and source the best green cardamom in India: oil content, colour, grade, freshness, GI origin and certifications. Emperor Spices, Bodinayakanur.',
+        h1: 'Best Green Cardamom in India: A Buyer\'s Guide',
+        intro:
+            'The best green cardamom in India is defined by high essential-oil content, deep-green colour, bold capsule size, verified freshness and proper certification — and it comes from the Western Ghats Cardamom Hills belt. This guide shows importers, wholesalers and distributors exactly how to judge those parameters and source reliably, drawing on Emperor Spices\' grading operation in Bodinayakanur at the heart of that belt.',
+        sections: [
+            {
+                heading: 'What "Best" Actually Means in Green Cardamom',
+                html: '<p>"Best" is not a marketing word — for cardamom it breaks down into measurable parameters that a serious buyer can specify and verify. When importers and wholesalers ask for the best green cardamom, they are really asking for the combination below:</p><ul><li><strong>Essential oil content</strong> — the source of all flavour and aroma; higher oil means a stronger, more valuable spice.</li><li><strong>Colour</strong> — a deep, uniform green signals careful curing and fresh, recent-season stock.</li><li><strong>Capsule size and grade</strong> — bold capsules carry more seed mass and more oil, which is why size correlates with quality.</li><li><strong>Freshness</strong> — aroma escapes over time, so proximity to harvest matters enormously.</li><li><strong>Origin</strong> — high-altitude Western Ghats produce sets the benchmark for Indian green cardamom.</li><li><strong>Certification</strong> — verifiable credentials and a Certificate of Analysis turn claims into evidence.</li></ul><p>A supplier who can put every one of these in writing, and back them with a sample, is offering genuine quality. One who cannot is selling a description.</p>',
+            },
+            {
+                heading: 'Grade and Quality Reference Table',
+                html: '<p>Indian green cardamom is graded by capsule size, and size is a working proxy for oil content. The table below shows how the principal grades compare on the parameters that define "best" for each use case.</p><table><thead><tr><th>Grade</th><th>Capsule Size</th><th>Essential Oil</th><th>Colour</th><th>Best For</th></tr></thead><tbody><tr><td>AGEB (Extra Bold)</td><td>8mm and above</td><td>7&ndash;8%</td><td>Deep, vivid green</td><td>Premium retail, Arabic coffee, gifting</td></tr><tr><td>AGB (Bold)</td><td>7&ndash;8mm</td><td>6&ndash;7%</td><td>Strong green</td><td>Retail packs, foodservice, blends</td></tr><tr><td>AGS (Small)</td><td>6&ndash;7mm</td><td>5&ndash;6%</td><td>Green</td><td>Grinding, extraction, industrial use</td></tr></tbody></table><p>For most buyers seeking the "best" on appearance and aroma, AGEB is the benchmark grade. But the truly best choice depends on application: a grinder paying for flavour yield rather than visual size may find AGS the most economical route to quality. We also supply decorticated seeds and ground powder for buyers who want to remove husk-handling or milling from their own process.</p>',
+            },
+            {
+                heading: 'Why GI Origin and the Bodinayakanur Belt Matter',
+                html: '<p>The single biggest driver of cardamom quality is where it grows. The high-altitude estates of the Western Ghats Cardamom Hills — the Idukki, Vandanmedu and Bodinayakanur belt — combine cool mountain temperatures, reliable monsoon rainfall and mineral-rich soils. Slower maturation at altitude concentrates the aromatic compounds in the seed, producing the deep-green, high-oil capsules recognised worldwide under the historic Alleppey Green trade name.</p><p>Emperor Spices operates as a grader, wholesaler and exporter from Bodinayakanur, one of India\'s principal cardamom trading and auction centres. Buying at source within this belt gives three advantages that translate directly into the "best" parameters:</p><ul><li><strong>Fresh arrivals</strong> — cured capsules reach our grading floor within days, protecting colour and oil content.</li><li><strong>Direct selection</strong> — we evaluate lots in person rather than buying blind through distant intermediaries.</li><li><strong>Honest grading</strong> — machine sorting with manual verification means a bold-grade contract delivers bold capsules, not a padded blend.</li></ul>',
+            },
+            {
+                heading: 'How to Verify Quality Before You Buy',
+                html: '<p>The best green cardamom is the lot you can prove, not the one you are promised. Before committing to a bulk order, a buyer should insist on two things. First, a <strong>pre-shipment sample</strong> — Emperor Spices dispatches 100g to 500g of the actual grade on offer so your team can crack a pod, check the deep-green colour and smell the aroma directly. Fresh, high-oil cardamom releases a strong, sweet scent the instant it is cracked. Second, a <strong>Certificate of Analysis</strong> tying that sample to the delivered consignment by capsule size, colour and oil content.</p><p>Behind the sample sits the certification that lets the cardamom clear customs and satisfy food-safety auditors: FSSAI licence, ISO 22000:2018 food safety management, HACCP controls, plus APEDA and Spices Board of India registrations and an IEC code. A supplier offering the genuine best will hold these credentials and welcome verification — because the evidence is exactly what separates premium cardamom from a cheaper substitute.</p>',
+            },
+        ],
+        faqs: [
+            {
+                question: 'What makes the best green cardamom in India?',
+                answer: 'The best green cardamom combines high essential-oil content, deep uniform green colour, bold capsule size and verified freshness, grown in the high-altitude Western Ghats Cardamom Hills belt. AGEB grade at 8mm+ with 7&ndash;8% oil is the benchmark, backed by certification and a Certificate of Analysis.',
+            },
+            {
+                question: 'Where does the best Indian cardamom come from?',
+                answer: 'It comes from the Western Ghats Cardamom Hills — the Idukki, Vandanmedu and Bodinayakanur belt straddling Kerala and Tamil Nadu. Cool mountain temperatures, monsoon rainfall and mineral-rich soils produce the deep-green, high-oil capsules recognised worldwide under the historic Alleppey Green trade name.',
+            },
+            {
+                question: 'How can a wholesaler verify cardamom quality before ordering?',
+                answer: 'Request a pre-shipment sample of 100g to 500g of the actual grade on offer, then crack a pod to check the deep-green colour and strong aroma. Confirm a Certificate of Analysis documenting capsule size, colour and oil content, and verify the supplier holds FSSAI, ISO 22000:2018 and Spices Board credentials.',
+            },
+            {
+                question: 'Is bigger cardamom always the best choice?',
+                answer: 'Bigger means bolder appearance and higher oil, which premium retail and qahwa markets pay for, so AGEB is the benchmark on aroma and looks. But for grinding and extraction, AGS often gives the best value because flavour yield per kilo matters more than visual size. The best grade depends on your application.',
+            },
+        ],
+        cta: {
+            heading: 'Source the Best Green Cardamom from Bodinayakanur',
+            text: 'Get Western Ghats Cardamom Hills produce graded and exported by a certified supplier, with samples and a Certificate of Analysis before you commit. Send your grade, volume and destination port. Call +91 97900 05649.',
+        },
+    },
 ];
