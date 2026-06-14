@@ -24,7 +24,7 @@ export const faqs = [
     },
     {
         question: 'How do you ensure quality during shipping?',
-        answer: 'Our AromaSeal packaging uses triple-layer protection with moisture barrier, UV protection, and aroma-seal technology. We also provide temperature-controlled shipping for sensitive markets.',
+        answer: 'Our FreshLock packaging uses triple-layer protection with moisture barrier, UV protection, and aroma-seal technology. We also provide temperature-controlled shipping for sensitive markets.',
     },
     {
         question: 'What HS code applies to cardamom for customs classification?',

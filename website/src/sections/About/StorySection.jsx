@@ -31,7 +31,7 @@ const StorySection = () => {
             Our mission is to source only the finest organic Cardamom, 
             chemical-free, with all its natural flavor and goodness intact. 
             We send our cardamom across, from our home with love to yours, 
-            in our exclusive 'Aroma Lock' packaging.
+            in our exclusive FreshLock packaging.
           </p>
 
           <p className="story-text">

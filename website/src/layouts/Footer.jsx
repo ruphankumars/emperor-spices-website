@@ -194,6 +194,7 @@ const Footer = () => {
             <li><Link to="/export/cardamom-export-middle-east">Middle East Export</Link></li>
             <li><Link to="/export/cardamom-grades-ageb-agb-ags">AGEB, AGB &amp; AGS Grades</Link></li>
             <li><Link to="/export/cardamom-price-bulk-export">Bulk Cardamom Pricing</Link></li>
+            <li><Link to="/export/cardamom-exporters-kerala">Cardamom Exporters Kerala</Link></li>
             <li><Link to="/knowledge">Knowledge Hub</Link></li>
           </ul>
         </div>

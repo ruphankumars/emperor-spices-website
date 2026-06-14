@@ -209,7 +209,7 @@ const PackagingSection = () => {
                 <div className="container">
                     <span className="section-label">Innovation</span>
                     <h2 className="section-title aroma-title">
-                        Aroma Lock <sup style={{ fontSize: '1rem' }}>™</sup> Technology
+                        FreshLock <sup style={{ fontSize: '1rem' }}>™</sup> Technology
                     </h2>
                     <p className="section-subtitle mx-auto aroma-subtitle">
                         Our specially designed high-tech, multi-layered packaging preserves the natural aroma
@@ -248,7 +248,7 @@ const PackagingSection = () => {
                                     ✓ <span>UV protection layer</span>
                                 </li>
                                 <li className="aroma-feature" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                    ✓ <span>Aroma-seal technology</span>
+                                    ✓ <span>FreshLock seal technology</span>
                                 </li>
                                 <li className="aroma-feature" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                     ✓ <span>Extended shelf life (24+ months)</span>

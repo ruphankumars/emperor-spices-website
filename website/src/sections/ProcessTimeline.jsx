@@ -20,7 +20,7 @@ const ProcessTimeline = () => {
     {
       number: 4,
       title: 'Packaging',
-      description: 'Aroma Lock technology in multi-layered packaging for freshness',
+      description: 'FreshLock technology in multi-layered packaging for freshness',
     },
     {
       number: 5,

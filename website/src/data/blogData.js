@@ -172,7 +172,7 @@ export const blogDatabase = [
             <p>Direct relationships with farming families ensure fair compensation and sustainable livelihoods for communities who have cultivated these lands for generations.</p>
             
             <h3>Responsible Packaging</h3>
-            <p>Our innovative aroma-lock packaging maintains freshness while using recyclable materials—protecting both quality and the environment.</p>
+            <p>Our innovative FreshLock packaging maintains freshness while using recyclable materials—protecting both quality and the environment.</p>
         `
     },
     {

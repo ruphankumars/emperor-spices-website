@@ -31,8 +31,17 @@ export default defineConfig({
     // Enable code splitting for better caching
     rollupOptions: {
       output: {
-        // Let Vite handle chunking automatically to avoid circular dependencies
-        // The manual chunks were causing: "rA is not a constructor" errors
+        // Split ONLY pure leaf libraries into their own cached chunks.
+        // React/react-dom/scheduler/router/framer-motion are deliberately left in
+        // the main bundle — splitting them previously caused "rA is not a
+        // constructor" circular-dependency crashes. gsap and lucide-react are
+        // self-contained (no React reconciler involvement), so they split safely
+        // and improve repeat-visit caching since they rarely change.
+        manualChunks(id) {
+          if (id.includes('node_modules/gsap')) return 'vendor-gsap';
+          if (id.includes('node_modules/lucide-react')) return 'vendor-icons';
+          return undefined;
+        },
         // Optimize chunk size
         experimentalMinChunkSize: 10000,
         // Optimize asset file names for better caching
