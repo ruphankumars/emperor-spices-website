@@ -138,7 +138,7 @@ const HeroSection = () => {
       <div className="hero-bg" ref={bgRef}>
         <img
           src="/images/backgrounds/hero_bg_correct.jpg"
-          alt="Cardamom Plantation"
+          alt="Emperor Cardamom plantation in Bodinayakanur, India — premium green cardamom"
           loading="eager"
         />
         <div className="hero-overlay"></div>
@@ -178,8 +178,8 @@ const HeroSection = () => {
         </h1>
 
         <p className="hero-subtitle">
-          From the misty hills of Bodinayakanur to kitchens worldwide.
-          We export the world's finest green cardamom with generations of expertise.
+          From the misty hills of Bodinayakanur to kitchens worldwide —
+          Emperor Cardamom brings you the world's finest green cardamom, backed by generations of expertise.
         </p>
 
         <div className="hero-ctas">

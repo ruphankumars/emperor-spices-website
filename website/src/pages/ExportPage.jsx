@@ -201,7 +201,7 @@ const ExportPage = () => {
             {/* CTA */}
             <section className="py-20 px-6 bg-white" data-nav-theme="light">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-3xl font-display font-bold mb-4">Ready to Import Premium Cardamom?</h2>
+                    <h2 className="text-3xl font-display font-bold mb-4">Ready to Import Premium Emperor Cardamom?</h2>
                     <p className="text-stone-600 mb-8">Contact our export team for pricing, samples, and shipping details.</p>
                     <div className="flex flex-wrap gap-4 justify-center">
                         <Link to="/contact" className="btn-primary btn-magnetic">

@@ -9,7 +9,7 @@ const KnowledgeSection = () => {
             <div className="absolute inset-0 z-0">
                 <OptimizedImg
                     src="/images/hero-bg-correct.png"
-                    alt="Plantation Background"
+                    alt="Emperor Cardamom plantation background"
                     className="w-full h-full object-cover opacity-20"
                 />
                 <div className="absolute inset-0 bg-forest/90"></div>
@@ -57,18 +57,18 @@ const KnowledgeSection = () => {
                     <div className="grid grid-cols-2 gap-4">
                         <div className="space-y-4">
                             <div className="h-64 rounded-3xl overflow-hidden border border-white/10">
-                                <OptimizedImg src="/images/india-map.png" alt="Origin Map" className="w-full h-full object-cover" />
+                                <OptimizedImg src="/images/india-map.png" alt="Emperor Cardamom origin map — Western Ghats, India" className="w-full h-full object-cover" />
                             </div>
                             <div className="h-80 rounded-3xl overflow-hidden border border-white/10">
-                                <OptimizedImg src="/images/cardamom-pod-3d.png" alt="Pod Anatomy" className="w-full h-full object-cover" />
+                                <OptimizedImg src="/images/cardamom-pod-3d.png" alt="Emperor Cardamom pod anatomy — green cardamom" className="w-full h-full object-cover" />
                             </div>
                         </div>
                         <div className="pt-12 space-y-4">
                             <div className="h-80 rounded-3xl overflow-hidden border border-white/10">
-                                <OptimizedImg src="/images/cardamom-levitation.png" alt="Spice Levitation" className="w-full h-full object-cover" />
+                                <OptimizedImg src="/images/cardamom-levitation.png" alt="Emperor Cardamom green cardamom pods" className="w-full h-full object-cover" />
                             </div>
                             <div className="h-64 rounded-3xl overflow-hidden border border-white/10">
-                                <OptimizedImg src="/images/cardamom-closeup.png" alt="Macro Detail" className="w-full h-full object-cover" />
+                                <OptimizedImg src="/images/cardamom-closeup.png" alt="Emperor Cardamom macro detail — green cardamom pods" className="w-full h-full object-cover" />
                             </div>
                         </div>
                     </div>

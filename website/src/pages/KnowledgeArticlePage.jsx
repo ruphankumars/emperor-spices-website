@@ -132,7 +132,7 @@ const KnowledgeArticlePage = () => {
                     marginTop: '48px', padding: '32px', borderRadius: '20px', textAlign: 'center',
                     background: 'linear-gradient(135deg, #2d6b4a 0%, #1a4030 100%)', color: '#fff',
                 }}>
-                    <h2 style={{ fontSize: '1.3rem', margin: '0 0 8px' }}>Looking for premium green cardamom?</h2>
+                    <h2 style={{ fontSize: '1.3rem', margin: '0 0 8px' }}>Looking for premium Emperor Cardamom?</h2>
                     <p style={{ margin: '0 0 20px', opacity: 0.85, fontSize: '0.95rem' }}>
                         AGMARK certified AGEB, AGB &amp; AGS grades exported to 40+ countries. Samples available with COA.
                     </p>

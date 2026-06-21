@@ -148,7 +148,7 @@ const ContactPage = () => {
                         <div className="company-info-card contact-animate">
                             <div className="company-header">
                                 <h3>🏢 Emperor Spices Private Limited</h3>
-                                <span className="company-tagline">Premium Green Cardamom Exporters</span>
+                                <span className="company-tagline">Emperor Cardamom — Premium Green Cardamom Exporters</span>
                             </div>
 
                             <div className="company-details-grid">
